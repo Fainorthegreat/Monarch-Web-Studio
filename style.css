@@ -118,10 +118,6 @@ path {
 	width: 100%;
 }
 
-.header_nav_mobile {
-	display: none;
-}
-
 .main__first {
 	margin: auto;
 }
@@ -281,6 +277,10 @@ path {
 	background-color: #a44200;
 	border: none;
 	font-size: 18px;
+}
+
+.hidden {
+	overflow: hidden;
 }
 
 #info__other_desctop {
@@ -946,6 +946,7 @@ header {
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 	cursor: pointer;
+	z-index: 15;
   }
   
  #nav-icon3 span {
@@ -1027,6 +1028,7 @@ header {
 		width: 26px;
 		background-image: url(img/mini_call.png);
 		background-color: #fbfbfb;
+		z-index: 2;
 	}
 
 	.fixed-container {
@@ -1049,6 +1051,14 @@ header {
 
 	.header__content__info {
 		display: none;
+	}
+
+	.header__content {
+		justify-content: space-around;
+	}
+
+	.header__content__number {
+		z-index: 2;
 	}
 
 	.main__title {
@@ -1183,5 +1193,30 @@ header {
 	.footer-info__autor {
 		padding: 22px 0;
 		font-size: 12px;
+	}
+
+	.header__mob-nav {
+		position: fixed;
+		width: 100%;
+		margin-top: 30px;
+		text-align: center;
+		z-index: 15;
+		background-color: #FFFFFF;
+	}
+
+	.header__mob-nav ul li {
+		display: block;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-right: 0;
+		border-bottom: 1px solid #fbfbfb;
+	} 
+
+	.header__mob-nav ul {
+		z-index: 15;
+	}
+
+	.fixed-container {
+		padding: 0;
 	}
 }

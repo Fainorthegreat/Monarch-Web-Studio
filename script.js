@@ -29,21 +29,28 @@ $(document).ready(function(){
     
 
 $(function(){
-	
+  $('#nav-icon3').on('click', function(){
+    if ($('body').hasClass('hidden')) // *HASCLASS - ОЧЕНЬ УДОБНАЯ ФУНКЦИЯ ПРОВЕРКИ КЛАССА, А ТАКЖЕ ВКЛЮЧЕНИЯ И ВЫКЛЮЧЕНИЯ 
+    {
+    $('body').removeClass('hidden');}
+    else {
+    $('body').addClass('hidden');
+    }
+  })
+  
 	$('#nav-icon3').on('click', function(){
 		
 		$('.header__mob-nav').slideToggle(300, function(){
 			
 			if($(this).css('display') === 'none'){
-				$(this).removeAttr('style');
-		}
-		
+        $(this).removeAttr('style');   
+    }
   });
-    
-	
- });
-	
+  
+   });
 });
+
+
 
 $('#nav-icon3').click(function(){
   $(this).toggleClass('open');
