@@ -626,6 +626,11 @@ path {
 	display: none;
 }
 
+.header__mob-nav {
+	display: none;
+}
+
+
 /* !TABLET */
 @media (min-width: 1024px) and (max-width: 1919px) {
 .fly-elements__fly-selector,
@@ -807,6 +812,36 @@ header {
 	padding-left: 40px;
 	padding-right: 40px;
 }
+
+/* !БУРГЕР МЕНЮ */
+
+.header__mob-nav {
+	display: inline-block;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding-top: 40px;
+	padding-left: 40px;
+	z-index: 50;
+	/* background-color: #a44200;  */
+}
+
+.header__content ul li {
+	display: block;
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+
+#burger {
+	width: 45px;
+	height: 32px;
+	background-color: #fbfbfb;
+	border: none;
+	background-image: url(img/Menu.png);
+	background-repeat: no-repeat;
+}
+
 
 }
 
