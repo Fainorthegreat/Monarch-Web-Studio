@@ -390,6 +390,10 @@ path {
 	color: #8993ad;
 }
 
+#mini-call {
+	display: none;
+}
+
 .aside__title__info {
 	margin: auto;
 	padding-top: 85px;
@@ -646,6 +650,15 @@ path {
 .fly-elements__fly-div2,
 .fly-elements__fly-div {
 		
+}
+
+#mini-call {
+	border: 0;
+	height: 26px;
+	width: 26px;
+	background-image: url(img/mini_call.png);
+	background-color: #fbfbfb;
+	z-index: 2;
 }
 
 .fixed-container {
@@ -1023,6 +1036,7 @@ header {
 	}
 
 	#mini-call {
+		display: inline-block;
 		border: 0;
 		height: 26px;
 		width: 26px;
@@ -1099,6 +1113,7 @@ header {
 
 	.main__phone {
 		display: flex;
+		justify-content: center;
 	}
 
 	.swiper-pagination {
