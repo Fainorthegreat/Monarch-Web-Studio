@@ -88,11 +88,21 @@ aside {
 }
 
 header {
+}
+
+.container-bcg {
 	background-image: url(img/Ellipse_header.svg);
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-color: #fbfbfb;
 	overflow: hidden;
+	height: 768px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.container-img {
+	margin-top: 131px;
 }
 
 svg {
@@ -164,7 +174,7 @@ path {
 	justify-content: center;
 }
 
-.man_img {
+/* ! .man_img {
 	position: absolute;
 	margin: auto;
 	top: 131px;
@@ -172,7 +182,7 @@ path {
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	z-index: 1;
-}
+} */
 
 .man_img_phone {
 	display: none;
@@ -185,6 +195,7 @@ path {
 
 .header__content {
 	display: flex;
+	position: absolute;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: baseline;
@@ -192,6 +203,7 @@ path {
 	padding-top: 30px;
 	margin-bottom: 132px;
 	width: 100%;
+	max-width: 1170px;
 }
 
 .header__content ul li {
@@ -226,6 +238,7 @@ path {
 .header__content__right {
 	display: flex;
 	align-items: center;
+	padding-right: 40px;
 }
 
 #call {
@@ -247,14 +260,13 @@ path {
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
-	margin-top: 210px;
 	width: 100%;
 	max-width: 1170px;
 }
 
 .header__content__info {
-	width: 724px;
 	z-index: 2;
+	margin-top: 282px;
 }
 
 .info__name {
@@ -807,10 +819,6 @@ header {
 .man_img {
 	right: 50px;
 }
-
-.header__content__about-me  {
-	margin-top: 237px;
-} 
 
 .anim2 {
 	left: 430px;

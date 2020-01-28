@@ -28,8 +28,6 @@
                 <div class="fly-elements__fly-slesh2 anim2">&lt;/&gt;</div>
                 <div class="fly-elements__fly-selector anim">{ }</div>
             </div>
-            <img src="img/bivis.png" alt="man" class="man_img">
-            <img src="img/bivis-mini.png" alt="man-mini" class="man_img_phone">
             <div class="header__content">
                 <nav class="header__content___left">
                     <ul>
@@ -58,17 +56,26 @@
                     <button id="call">Заказать звонок</button>
                     <button id="mini-call"></button>
                 </div>
-                <div class="header__content__about-me clearfix">
-                    <div class="header__content__info">
-                        <div class="info__name">Виталий Петров</div>
-                        <div class="info__description">Frontend-разработчик и веб-верстальщик</div>
-                        <button id="info__other">Узнать больше</button>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </header>
     <main>
+        <div class="container-bcg">
+            <div class="header__content__about-me clearfix">
+            <div class="header__content__info">
+                <div class="info__name">Виталий Петров</div>
+                <div class="info__description">Frontend-разработчик и веб-верстальщик</div>
+                <button id="info__other">Узнать больше</button>
+        </div>
+        <div class="container-img">
+            <picture>
+                <source srcset="img/bivis-mini.png" media="(max-width:1023px)">
+                    <img alt="Я" srcset="img/bivis.png">
+            </picture>
+        </div>
+    </div>
+    </div>    
         <div class="main__phone">
             <div class="phone__info">
                 <div class="info__name-phone">Виталий Петров</div>
