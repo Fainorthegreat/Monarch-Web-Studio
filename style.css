@@ -87,7 +87,8 @@ aside {
 	font-family: "Roboto", sans-serif;
 }
 
-header {
+button:hover {
+	cursor: pointer;
 }
 
 .container-bcg {
@@ -102,6 +103,8 @@ header {
 }
 
 .container-img {
+	position: relative;
+	left: 200px;
 	margin-top: 131px;
 }
 
@@ -238,7 +241,6 @@ path {
 .header__content__right {
 	display: flex;
 	align-items: center;
-	padding-right: 40px;
 }
 
 #call {
