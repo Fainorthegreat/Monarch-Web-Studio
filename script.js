@@ -22,7 +22,7 @@ $(document).ready(function(){
         slidesPerView: 2,
         },
         320: {
-          slidesPerView: 1,
+        slidesPerView: 1,
         }
       },
     });
@@ -35,14 +35,14 @@ $(document).ready(function(){
   });
 
 $(function(){
-  $('#nav-icon3').on('click', function(){
-    if ($('body').hasClass('hidden')) // *HASCLASS - ОЧЕНЬ УДОБНАЯ ФУНКЦИЯ ПРОВЕРКИ КЛАССА, А ТАКЖЕ ВКЛЮЧЕНИЯ И ВЫКЛЮЧЕНИЯ 
-    {
-    $('body').removeClass('hidden');}
-    else {
-    $('body').addClass('hidden');
-    }
-  })
+  // $('#nav-icon3').on('click', function(){
+  //   if ($('body').hasClass('hidden')) // *HASCLASS - ОЧЕНЬ УДОБНАЯ ФУНКЦИЯ ПРОВЕРКИ КЛАССА, А ТАКЖЕ ВКЛЮЧЕНИЯ И ВЫКЛЮЧЕНИЯ 
+  //   {
+  //   $('body').removeClass('hidden');}
+  //   else {
+  //   $('body').addClass('hidden');
+  //   }
+  // })
   
 	$('#nav-icon3').on('click', function(){
 		

@@ -1105,6 +1105,7 @@ header {
 		margin-top: 42px;
 		margin-bottom: 42px;
 		font-size: 30px;
+		padding: 0 20px;
 	}
 
 	.main-skills {
@@ -1153,7 +1154,7 @@ header {
 	}
 
 	.swiper-container {
-		height: 343px;
+		height: 340px;
 	}
 	
 	.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
@@ -1267,5 +1268,11 @@ header {
 	
 	.container-img {
 		left: 0;
+	}
+
+	.swiper-container img {
+		width: 282px;
+		height: 251px;
+		margin-left: 20px;
 	}
 }
