@@ -666,6 +666,10 @@ path {
 		
 }
 
+.container-img {
+	left: none;
+}
+
 #mini-call {
 	border: 0;
 	height: 26px;
@@ -816,6 +820,7 @@ header {
 
 .header__content {
 	margin-bottom: 128px;
+	width: 96%;
 }
 
 .man_img {
@@ -922,7 +927,6 @@ header {
 	.fly-elements__fly-slesh {
 		left: 950px;
 	}
-
 	.fly-elements__fly-div {
 		left: 1100px;
 	}
@@ -940,9 +944,18 @@ header {
 	.fly-elements__fly-slesh {
 		left: 750px;
 	}
+
+
+
 	.main-skills {
 		margin-left: 0;
 		margin-right: 0;
+	}
+}
+
+@media (min-width:1025px) and (max-width:1650px) {
+	.container-img {
+		left:50px
 	}
 }
 
@@ -1078,6 +1091,7 @@ header {
 	}
 
 	.header__content {
+		max-width: 1030px;
 		justify-content: space-around;
 	}
 
