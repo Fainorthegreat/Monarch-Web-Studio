@@ -1092,6 +1092,7 @@ header {
 
 	.header__content {
 		max-width: 1030px;
+		padding-top: 127px;
 		justify-content: space-around;
 	}
 
@@ -1257,5 +1258,14 @@ header {
 
 	.fixed-container {
 		padding: 0;
+	}
+
+	.container-bcg {
+		background-image: url(img/Ellipse_phone.svg);
+		height: 568px;
+	}
+	
+	.container-img {
+		left: 0;
 	}
 }
