@@ -46,7 +46,7 @@ $(function(){
   
 	$('.nav-icon3').on('click', function(){
 		
-		$('.header__mob-nav').slideToggle(300, function(){
+		$('.header__content___left').slideToggle(300, function(){
 			
 			if($(this).css('display') === 'none'){
         $(this).removeAttr('style');   

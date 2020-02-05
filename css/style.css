@@ -169,6 +169,8 @@ path {
 
 .slills__decr {
 	padding-top: 25px;
+	font-size: 16px;
+	padding-top: 16px;
 }
 
 .cost {
@@ -760,6 +762,10 @@ header {
  background-position: right -267px bottom -81px;
 }
 
+.header__content__number {
+	margin-left: 440px;
+}
+
 .header__content__info {
 	margin-top: 317px;
 }
@@ -983,6 +989,9 @@ header {
 	transition: .5s ease-in-out;
 	cursor: pointer;
 	z-index: 15;
+	outline: none;
+	border: 0;
+	background-color: #fbfbfb;
   }
   
  .nav-icon3 span {
@@ -1052,6 +1061,10 @@ header {
 	}
 	.header__content__number {
 		font-size: 18px;
+	}
+
+	.header__content__number a {
+		margin-left: 40px;
 	}
 
 	.call, .fly-elements__fly-selector, .fly-elements__fly-teg,  .fly-elements__fly-slesh, .fly-elements__fly-div2, .fly-elements__fly-div, .swiper-button-prev, .swiper-button-next {
@@ -1127,8 +1140,6 @@ header {
 	}
 
 	.slills__decr {
-		font-size: 16px;
-		padding-top: 16px;
 	}
 
 	.info__other {
