@@ -19,14 +19,6 @@
 <body>
     <header>
         <div class="fixed-container">
-            <div class="fly-elements">
-                <div class="fly-elements__fly-div anim2">&lt;div&gt;</div>
-                <div class="fly-elements__fly-teg anim">#</div>
-                <div class="fly-elements__fly-div2 anim2">&lt;div&gt;</div>
-                <div class="fly-elements__fly-slesh anim2">&lt;/&gt;</div>
-                <div class="fly-elements__fly-slesh2 anim2">&lt;/&gt;</div>
-                <div class="fly-elements__fly-selector anim">{ }</div>
-            </div>
             <div class="header__content">
                 <nav class="header__content___left">
                     <ul>
@@ -35,12 +27,12 @@
                         <li><a href="#cost">Стоимость</a></li>
                     </ul>
                 </nav>
-                <div id="nav-icon3">
+                <button class="nav-icon3">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
-                  </div>
+                </button>
                 <nav class="header__mob-nav">
                     <ul>
                         <li><a href="#">Услуги</a></li>
@@ -50,26 +42,33 @@
                 </nav>
                 <div class="header__content__right">
                     <div class="header__content__number">
-                        <a href="#">+7 (977) 472-57-03</a>
+                        <a href="tel:+79774725703">+7 (977) 472-57-03</a>
                     </div>
-                    <button id="call">Заказать звонок</button>
-                    <button id="mini-call"></button>
+                    <button class="call">Заказать звонок</button>
                 </div>
             </div>
         </div>
     </header>
     <main>
+        <div class="fly-elements">
+            <div class="fly-elements__fly-div anim2">&lt;div&gt;</div>
+            <div class="fly-elements__fly-teg anim">#</div>
+            <div class="fly-elements__fly-div2 anim2">&lt;div&gt;</div>
+            <div class="fly-elements__fly-slesh anim2">&lt;/&gt;</div>
+            <div class="fly-elements__fly-slesh2 anim2">&lt;/&gt;</div>
+            <div class="fly-elements__fly-selector anim">{ }</div>
+        </div>
         <div class="container-bcg">
             <div class="header__content__about-me clearfix">
             <div class="header__content__info">
-                <div class="info__name">Виталий Петров</div>
+                <h1 class="info__name">Виталий Петров</h1>
                 <div class="info__description">Frontend-разработчик и веб-верстальщик</div>
-                <button id="info__other">Узнать больше</button>
+                <button class="info__other">Узнать больше</button>
         </div>
         <div class="container-img">
             <picture>
                 <source srcset="img/bivis-mini.png" media="(max-width:1023px)">
-                    <img alt="Я" srcset="img/bivis.png">
+                    <img alt="Я" src="../img/bivis.png">
             </picture>
         </div>
     </div>
@@ -78,24 +77,24 @@
             <div class="phone__info">
                 <div class="info__name-phone">Виталий Петров</div>
                 <div class="info__description-phone">Frontend-разработчик и веб-верстальщик</div>
-                <button id="info__other-phone">Узнать больше</button>
+                <button class="info__other-phone">Узнать больше</button>
             </div>
         </div>
         <div class="main__first">
             <div class="fixed-container">
                 <div class="main-content">
-                    <div class="main__title" id="services">Что я делаю</div>
+                    <h2 class="main__title" id="services">Что я делаю</h2>
                     <div class="main-skills">
                         <div class="skills">
-                            <img src="img/tools-first.png" alt="tools" srcset="">
+                            <img src="img/tools-first.png" alt="tools">
                             <div class="slills__decr">Вёрстка лендинг–страниц <br>и сайтов любой сложности</div>
                         </div>
                         <div class="skills">
-                            <img src="img/tools-second.png" alt="tools2" srcset="">
+                            <img src="img/tools-second.png" alt="tools2">
                             <div class="slills__decr">Адаптивная вёрстка под все <br> браузеры и устройства</div>
                         </div>
                         <div class="skills">
-                            <img src="img/tools-third.png" alt="tools3" srcset="">
+                            <img src="img/tools-third.png" alt="tools3">
                             <div class="slills__decr">Frontend–разработка <br>и программирование</div>
                         </div>
                         <div class="skills">
@@ -104,26 +103,26 @@
                         </div>
                     </div>
                     <div class="cost">
-                        <button id="info__other">Узнать стоимость</button>
+                        <button class="info__other">Узнать стоимость</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="main__second">
             <div class="fixed-container">
-                <div class="main__title" id="exsamples">Примеры моих работ</div>
+                <h2 class="slills__decr  slills__decr" id="exsamples">Примеры моих работ</h2>
                 <div class="main__second__examples">
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="img/map_1.png" alt="site_1" srcset="">
+                            <div class="swiper-slide"><img src="img/map_1.png" alt="site_1">
                                 <div class="swiper-descr">Сайт психолога Веры Антоновой</div>
                             </div>
-                            <div class="swiper-slide"><img src="img/map_2.png" alt="site_2" srcset="">
+                            <div class="swiper-slide"><img src="img/map_2.png" alt="site_2">
                                 <div class="swiper-descr">Сайт магазина «Рыболов»</div>
                             </div>
-                            <div class="swiper-slide"><img src="img/map_3.png" alt="site_3" srcset="">
+                            <div class="swiper-slide"><img src="img/map_3.png" alt="site_3">
                                 <div class="swiper-descr">Сайт магазина детской одежды</div>
                             </div>
                         </div>  
@@ -131,11 +130,10 @@
                     </div>
                 </div>
                 <div class="cost">
-                    <button id="info__other_desctop">Заказать проект</button>
-                    <button id="info__other_tablet">Узнать стоимость</button>
+                    <button class="info__other_desctop">Заказать проект</button>
+                    <button class="info__other_tablet">Узнать стоимость</button>
                 </div>
             </div>
-        </div>
         </div>
         <aside>
             <!-- <div class="aside__teg-bracket-right">{ }</div>
@@ -152,6 +150,7 @@
                         <br> в зависимости от сложности задач.
                     </div>
                 </div>
+            </div>
         </aside>
     </main>
     <footer>
@@ -171,12 +170,11 @@
                     <li>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:vspetrov@pushkin.institute">vspetrov@pushkin.institute</a>
-                        </i>
                     </li>
                 </ul>
             </div>
             <div class="footer-info__social">
-                <button id="footer-info__call">Заказать звонок</button>
+                <button class="footer-info__call">Заказать звонок</button>
                 <div class="footer-info__social">
                     <a href="https://vk.com/69guru" class="icon-vk"></a>
                     <a href="#" class="icon-facebook"></a>

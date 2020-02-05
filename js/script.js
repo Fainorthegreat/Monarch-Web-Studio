@@ -44,7 +44,7 @@ $(function(){
   //   }
   // })
   
-	$('#nav-icon3').on('click', function(){
+	$('.nav-icon3').on('click', function(){
 		
 		$('.header__mob-nav').slideToggle(300, function(){
 			
@@ -58,7 +58,7 @@ $(function(){
 
 
 
-$('#nav-icon3').click(function(){
+$('.nav-icon3').click(function(){
   $(this).toggleClass('open');
 });
 

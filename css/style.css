@@ -243,7 +243,7 @@ path {
 	align-items: center;
 }
 
-#call {
+.call {
 	color: #a44200;
 	background-color: transparent;
 	width: 207px;
@@ -252,9 +252,9 @@ path {
 	font-size: 16px;
 }
 
-#call,
-#more_info,
-#call_footer {
+.call,
+.more_info,
+.call_footer {
 	cursor: pointer;
 }
 
@@ -283,7 +283,7 @@ path {
 	margin-bottom: 45px;
 }
 
-#info__other {
+.info__other {
 	margin-bottom: 100px;
 	color: #fff;
 	width: 270px;
@@ -297,7 +297,7 @@ path {
 	overflow: hidden;
 }
 
-#info__other_desctop {
+.info__other_desctop {
 	margin-bottom: 100px;
 	color: #fff;
 	width: 270px;
@@ -307,7 +307,7 @@ path {
 	font-size: 18px;
 }
 
-#info__other_tablet {
+.info__other_tablet {
 	display: none;
 	margin-bottom: 100px;
 	color: #fff;
@@ -339,7 +339,7 @@ path {
 	margin-bottom: 27px;
 }
 
-#info__other-phone {
+.info__other-phone {
 	color: #fff;
 	width: 280px;
 	height: 55px;
@@ -404,9 +404,6 @@ path {
 	color: #8993ad;
 }
 
-#mini-call {
-	display: none;
-}
 
 .aside__title__info {
 	margin: auto;
@@ -480,7 +477,7 @@ path {
 	margin-right: 30px;
 }
 
-#footer-info__call {
+.footer-info__call {
 	width: 248px;
 	height: 45px;
 	margin-bottom: 30px;
@@ -670,29 +667,22 @@ path {
 	left: 0;
 }
 
-#mini-call {
-	border: 0;
-	height: 26px;
-	width: 26px;
-	background-image: url(../img/mini_call.png);
-	background-color: #fbfbfb;
-	z-index: 2;
-}
+
 
 .fixed-container {
 	padding-left: 40px;
 	padding-right: 40px;
 }
 
-#call {
+.call {
 	margin-right: 40px;
 	font-size: 16px;
 }
 
 /* !Menu ICON ANIMATION */
-#nav-icon3 {
+.nav-icon3 {
 	width: 45px;
-	height: 32px;
+	height: 40px;
 	position: relative;
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
@@ -703,9 +693,13 @@ path {
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 	cursor: pointer;
+	background-color: #fbfbfb;
+	border: 0;
+	outline: none;
   }
+
   
- #nav-icon3 span {
+ .nav-icon3 span {
 	display: block;
 	position: absolute;
 	height: 5px;
@@ -724,39 +718,39 @@ path {
   }
 
 
-#nav-icon3 span:nth-child(1) {
+.nav-icon3 span:nth-child(1) {
 	top: 0px;
   }
   
-  #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  .nav-icon3 span:nth-child(2),.nav-icon3 span:nth-child(3) {
 	top: 18px;
   }
   
-  #nav-icon3 span:nth-child(4) {
+  .nav-icon3 span:nth-child(4) {
 	top: 36px;
   }
   
-  #nav-icon3.open span:nth-child(1) {
+  .nav-icon3.open span:nth-child(1) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
   }
   
-  #nav-icon3.open span:nth-child(2) {
+  .nav-icon3.open span:nth-child(2) {
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
   
-  #nav-icon3.open span:nth-child(3) {
+  .nav-icon3.open span:nth-child(3) {
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
   }
   
-  #nav-icon3.open span:nth-child(4) {
+  .nav-icon3.open span:nth-child(4) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
@@ -817,7 +811,7 @@ header {
 	font-size: 25px;
 }
 
-#info__other {
+.info__other {
 	width: 320px;
 	height: 68px;
 }
@@ -880,7 +874,7 @@ header {
 	display: none;
 }
 
-#info__other_desctop {
+.info__other_desctop {
 	display: none;
 }
 
@@ -896,7 +890,7 @@ header {
 	position: relative;
 }
 
-#info__other_tablet {
+.info__other_tablet {
 	display: inline-block;
 	width: 320px;
 	height: 67px;
@@ -975,7 +969,7 @@ header {
 
 @media (min-width:320px) and (max-width:1023px) {
 	/* !Menu ICON ANIMATION */
-#nav-icon3 {
+.nav-icon3 {
 	width: 24px;
 	height: 18px;
 	position: relative;
@@ -991,7 +985,7 @@ header {
 	z-index: 15;
   }
   
- #nav-icon3 span {
+ .nav-icon3 span {
 	display: block;
 	position: absolute;
 	height: 3px;
@@ -1010,39 +1004,39 @@ header {
   }
 
 
-#nav-icon3 span:nth-child(1) {
+.nav-icon3 span:nth-child(1) {
 	top: 0px;
   }
   
-  #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  .nav-icon3 span:nth-child(2),.nav-icon3 span:nth-child(3) {
 	top: 8px;
   }
   
-  #nav-icon3 span:nth-child(4) {
+  .nav-icon3 span:nth-child(4) {
 	top: 16px;
   }
   
-  #nav-icon3.open span:nth-child(1) {
+  .nav-icon3.open span:nth-child(1) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
   }
   
-  #nav-icon3.open span:nth-child(2) {
+  .nav-icon3.open span:nth-child(2) {
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
   
-  #nav-icon3.open span:nth-child(3) {
+  .nav-icon3.open span:nth-child(3) {
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
   }
   
-  #nav-icon3.open span:nth-child(4) {
+  .nav-icon3.open span:nth-child(4) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
@@ -1060,13 +1054,14 @@ header {
 		font-size: 18px;
 	}
 
-	#call, .fly-elements__fly-selector, .fly-elements__fly-teg,  .fly-elements__fly-slesh, .fly-elements__fly-div2, .fly-elements__fly-div, .swiper-button-prev, .swiper-button-next {
+	.call, .fly-elements__fly-selector, .fly-elements__fly-teg,  .fly-elements__fly-slesh, .fly-elements__fly-div2, .fly-elements__fly-div, .swiper-button-prev, .swiper-button-next {
 		display: none;
 	}
 
-	#mini-call {
+	.call {
 		display: inline-block;
 		border: 0;
+		font-size: 0;
 		height: 26px;
 		width: 26px;
 		background-image: url(../img/mini_call.png);
@@ -1136,7 +1131,7 @@ header {
 		padding-top: 16px;
 	}
 
-	#info__other {
+	.info__other {
 		width: 280px;
 		height: 55px;
 		font-size: 16px;	
@@ -1171,7 +1166,7 @@ header {
 		margin-bottom: 50px;
 	}
 
-	#info__other_desctop {
+	.info__other_desctop {
 		width: 280px;
 		height: 55px;
 		font-size: 16px;
@@ -1205,7 +1200,7 @@ header {
 		margin-left: 20px;
 		margin-right: 20px;
 		padding-top: 45px;
-		padding-bottom: 43px;
+		padding-bottom: 54px;
 	}
 
 	.footer-info__nav a{
@@ -1227,7 +1222,7 @@ header {
 		margin-bottom: 20px;
 	}
 
-	#footer-info__call {
+	.footer-info__call {
 		margin-top: 25px;
 		margin-bottom: 50px;
 		width: 280px;
@@ -1238,7 +1233,7 @@ header {
 	}
 
 	.footer-info__autor {
-		padding: 22px 0;
+		padding: 18px 0;
 		font-size: 12px;
 	}
 
