@@ -6,13 +6,13 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
-	src: url('fonts/roboto-v20-cyrillic_latin-300.eot');
+	src: url('../fonts/roboto-v20-cyrillic_latin-300.eot');
 	/* IE9 Compat Modes */
 	src: local('Roboto Light'), local('Roboto-Light'), url('fonts/roboto-v20-cyrillic_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('fonts/roboto-v20-cyrillic_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-	url('fonts/roboto-v20-cyrillic_latin-300.woff') format('woff'), /* Modern Browsers */
-	url('fonts/roboto-v20-cyrillic_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-	url('fonts/roboto-v20-cyrillic_latin-300.svg#Roboto') format('svg');
+	url('../fonts/roboto-v20-cyrillic_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/roboto-v20-cyrillic_latin-300.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/roboto-v20-cyrillic_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/roboto-v20-cyrillic_latin-300.svg#Roboto') format('svg');
 	/* Legacy iOS */
 }
 
@@ -23,13 +23,13 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
-	src: url('fonts/roboto-v20-cyrillic_latin-regular.eot');
+	src: url('../fonts/roboto-v20-cyrillic_latin-regular.eot');
 	/* IE9 Compat Modes */
-	src: local('Roboto'), local('Roboto-Regular'), url('fonts/roboto-v20-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('fonts/roboto-v20-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-	url('fonts/roboto-v20-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
-	url('fonts/roboto-v20-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-	url('fonts/roboto-v20-cyrillic_latin-regular.svg#Roboto') format('svg');
+	src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto-v20-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/roboto-v20-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/roboto-v20-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/roboto-v20-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/roboto-v20-cyrillic_latin-regular.svg#Roboto') format('svg');
 	/* Legacy iOS */
 }
 
@@ -40,13 +40,13 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
-	src: url('fonts/roboto-v20-cyrillic_latin-700.eot');
+	src: url('../fonts/roboto-v20-cyrillic_latin-700.eot');
 	/* IE9 Compat Modes */
-	src: local('Roboto Bold'), local('Roboto-Bold'), url('fonts/roboto-v20-cyrillic_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('fonts/roboto-v20-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-	url('fonts/roboto-v20-cyrillic_latin-700.woff') format('woff'), /* Modern Browsers */
-	url('fonts/roboto-v20-cyrillic_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-	url('fonts/roboto-v20-cyrillic_latin-700.svg#Roboto') format('svg');
+	src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/roboto-v20-cyrillic_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/roboto-v20-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/roboto-v20-cyrillic_latin-700.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/roboto-v20-cyrillic_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/roboto-v20-cyrillic_latin-700.svg#Roboto') format('svg');
 	/* Legacy iOS */
 }
 
@@ -57,12 +57,12 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 900;
-	src: url('fonts/roboto-v20-cyrillic_latin-900.eot');
+	src: url('../fonts/roboto-v20-cyrillic_latin-900.eot');
 	/* IE9 Compat Modes */
-	src: local('Roboto Black'), local('Roboto-Black'), url('fonts/roboto-v20-cyrillic_latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('fonts/roboto-v20-cyrillic_latin-900.woff2') format('woff2'), /* Super Modern Browsers */
-	url('fonts/roboto-v20-cyrillic_latin-900.woff') format('woff'), /* Modern Browsers */
-	url('fonts/roboto-v20-cyrillic_latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+	src: local('Roboto Black'), local('Roboto-Black'), url('../fonts/roboto-v20-cyrillic_latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/roboto-v20-cyrillic_latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/roboto-v20-cyrillic_latin-900.woff') format('woff'), /* Modern Browsers */
+	url('../fonts/roboto-v20-cyrillic_latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
 	url('/fonts/roboto-v20-cyrillic_latin-900.svg#Roboto') format('svg');
 	/* Legacy iOS */
 }
@@ -92,7 +92,7 @@ button:hover {
 }
 
 .container-bcg {
-	background-image: url(img/Ellipse_header.svg);
+	background-image: url(../img/Ellipse_header.svg);
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-color: #fbfbfb;
@@ -362,7 +362,7 @@ path {
 }
 
 .swiper-button-prev {
-	background-image: url(img/arrow.png);
+	background-image: url(../img/arrow.png);
 	background-repeat: no-repeat;
 	background-color: #ffffff;
 	border: none;
@@ -377,7 +377,7 @@ path {
 }
 
 .swiper-button-next {
-	background-image: url(img/arrow.png);
+	background-image: url(../img/arrow.png);
 	background-repeat: no-repeat;
 	background-color: #ffffff;
 	border: none;
@@ -410,8 +410,8 @@ path {
 
 .aside__title__info {
 	margin: auto;
-	padding-top: 85px;
-	max-width: 943px;
+	padding-top: 96px;
+	max-width: 947px;
 	width: 100%;
 }
 
@@ -674,7 +674,7 @@ path {
 	border: 0;
 	height: 26px;
 	width: 26px;
-	background-image: url(img/mini_call.png);
+	background-image: url(../img/mini_call.png);
 	background-color: #fbfbfb;
 	z-index: 2;
 }
@@ -764,6 +764,10 @@ path {
 
 header {
  background-position: right -267px bottom -81px;
+}
+
+.header__content__info {
+	margin-top: 317px;
 }
 
 .fly-elements__fly-selector {
@@ -919,6 +923,8 @@ header {
 .footer-info {
 	padding-left: 40px;
 	padding-right: 40px;
+	padding-bottom: 74px;
+	padding-top: 106px;
 }
 
 }
@@ -1043,7 +1049,7 @@ header {
   }
 
 	header {
-		background-image: url(img/Ellipse_phone.svg);
+		background-image: url(../img/Ellipse_phone.svg);
 		background-position: right bottom;
 	}
 	
@@ -1063,7 +1069,7 @@ header {
 		border: 0;
 		height: 26px;
 		width: 26px;
-		background-image: url(img/mini_call.png);
+		background-image: url(../img/mini_call.png);
 		background-color: #fbfbfb;
 		z-index: 2;
 	}
@@ -1262,7 +1268,7 @@ header {
 	}
 
 	.container-bcg {
-		background-image: url(img/Ellipse_phone.svg);
+		background-image: url(../img/Ellipse_phone.svg);
 		height: 564px;
 	}
 	
