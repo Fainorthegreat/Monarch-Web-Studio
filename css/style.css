@@ -91,13 +91,17 @@ button:hover {
 	cursor: pointer;
 }
 
+header {
+	background-color: #fbfbfb;
+}
+
 .container-bcg {
 	background-image: url(../img/Ellipse_header.svg);
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	background-color: #fbfbfb;
 	overflow: hidden;
-	height: 768px;
+	height: 694px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
@@ -105,7 +109,7 @@ button:hover {
 .container-img {
 	position: relative;
 	left: 200px;
-	margin-top: 131px;
+	margin-top: 57px;
 }
 
 svg {
@@ -152,7 +156,7 @@ path {
 .main-skills {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 95px;
+	margin-bottom: 108px;
 	margin-left: 0;
 	margin-right: 0;
 }
@@ -161,7 +165,7 @@ path {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	max-width: 257px;
+	max-width: 235px;
 	text-align: center;
 	font-size: 19px;
 	color: #8993ad;
@@ -200,13 +204,11 @@ path {
 
 .header__content {
 	display: flex;
-	position: absolute;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: baseline;
 	margin: auto;
 	padding-top: 30px;
-	margin-bottom: 132px;
 	width: 100%;
 	max-width: 1170px;
 }
@@ -270,7 +272,7 @@ path {
 
 .header__content__info {
 	z-index: 2;
-	margin-top: 282px;
+	margin-top: 206px;
 }
 
 .info__name {
@@ -409,7 +411,7 @@ path {
 
 .aside__title__info {
 	margin: auto;
-	padding-top: 96px;
+	padding-top: 85px;
 	max-width: 947px;
 	width: 100%;
 }
@@ -518,7 +520,7 @@ path {
 
 .fly-elements__fly-div {
 	top: 170px;
-	left: 790px;
+	left: 890px;
 	transform: rotate(-15deg);
 	font-size: 29px;
 	transition: 3s;
@@ -526,7 +528,7 @@ path {
 
 .fly-elements__fly-div2 {
 	top: 542px;
-	left: 955px;
+	left: 1055px;
 	transform: rotate(15deg);
 	font-size: 35px;
 	transition: 2s;
@@ -534,7 +536,7 @@ path {
 
 .fly-elements__fly-slesh {
 	top: 674px;
-	left: 381px;
+	left: 481px;
 	transform: rotate(-22deg);
 	font-size: 38px;
 	transition: 1s;
@@ -553,12 +555,12 @@ path {
 	-webkit-text-fill-color: transparent;
 	font-weight: 700;
 	top: 235px;
-	left: 159px;
+	left: 259px;
 }
 
 .fly-elements__fly-teg {
 	top: 360px;
-	left: 248px;
+	left: 348px;
 	transform: rotate(25deg);
 	font-size: 55px;
 	transition: 3s;
@@ -566,7 +568,7 @@ path {
 
 .fly-elements__fly-selector {
 	top: 138px;
-	left: 130px;
+	left: 230px;
 	transform: rotate(25deg);
 	font-size: 43px;
 	transition: 1s;
@@ -596,13 +598,13 @@ path {
 
 .aside__teg-bracket-left {
 	top: 2331px;
-	left: 128px;
+	left: 228px;
 	font-size: 48px;
 	transform: rotate(25deg);
 }
 
 .aside__teg-bracket-right {
-	left: 1767px;
+	left: 1867px;
 	top: 2530px;
 	transform: rotate(-20deg);
 	font-size: 48px;
@@ -610,13 +612,13 @@ path {
 
 .aside__teg-bottom {
 	top: 2522px;
-	left: 246px;
+	left: 346px;
 	font-size: 55px;
 	transform: rotate(25deg);
 }
 
 .aside__div-bottom {
-	left: 1425px;
+	left: 1525px;
 	top: 2575px;
 	transform: rotate(23deg);
 	font-size: 35px;
@@ -624,7 +626,7 @@ path {
 
 .aside__slesh-bottom {
 	top: 2346px;
-	left: 1659px;
+	left: 1759px;
 	font-size: 38px;
 	transform: rotate(-20deg);
 }
@@ -682,7 +684,7 @@ path {
 }
 
 /* !Menu ICON ANIMATION */
-.nav-icon3 {
+.burger {
 	width: 45px;
 	height: 40px;
 	position: relative;
@@ -701,7 +703,7 @@ path {
   }
 
   
- .nav-icon3 span {
+ .burger span {
 	display: block;
 	position: absolute;
 	height: 5px;
@@ -720,39 +722,39 @@ path {
   }
 
 
-.nav-icon3 span:nth-child(1) {
+.burger span:nth-child(1) {
 	top: 0px;
   }
   
-  .nav-icon3 span:nth-child(2),.nav-icon3 span:nth-child(3) {
+  .burger span:nth-child(2),.burger span:nth-child(3) {
 	top: 18px;
   }
   
-  .nav-icon3 span:nth-child(4) {
+  .burger span:nth-child(4) {
 	top: 36px;
   }
   
-  .nav-icon3.open span:nth-child(1) {
+  .burger.open span:nth-child(1) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
   }
   
-  .nav-icon3.open span:nth-child(2) {
+  .burger.open span:nth-child(2) {
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
   
-  .nav-icon3.open span:nth-child(3) {
+  .burger.open span:nth-child(3) {
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
   }
   
-  .nav-icon3.open span:nth-child(4) {
+  .burger.open span:nth-child(4) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
@@ -767,7 +769,7 @@ header {
 }
 
 .header__content__info {
-	margin-top: 317px;
+	margin-top: 223px;
 }
 
 .fly-elements__fly-selector {
@@ -823,7 +825,6 @@ header {
 }
 
 .header__content {
-	margin-bottom: 128px;
 	width: 96%;
 }
 
@@ -975,7 +976,7 @@ header {
 
 @media (min-width:320px) and (max-width:1023px) {
 	/* !Menu ICON ANIMATION */
-.nav-icon3 {
+.burger {
 	width: 24px;
 	height: 18px;
 	position: relative;
@@ -994,7 +995,7 @@ header {
 	background-color: #fbfbfb;
   }
   
- .nav-icon3 span {
+ .burger span {
 	display: block;
 	position: absolute;
 	height: 3px;
@@ -1013,39 +1014,39 @@ header {
   }
 
 
-.nav-icon3 span:nth-child(1) {
+.burger span:nth-child(1) {
 	top: 0px;
   }
   
-  .nav-icon3 span:nth-child(2),.nav-icon3 span:nth-child(3) {
+  .burger span:nth-child(2),.burger span:nth-child(3) {
 	top: 8px;
   }
   
-  .nav-icon3 span:nth-child(4) {
+  .burger span:nth-child(4) {
 	top: 16px;
   }
   
-  .nav-icon3.open span:nth-child(1) {
+  .burger.open span:nth-child(1) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
   }
   
-  .nav-icon3.open span:nth-child(2) {
+  .burger.open span:nth-child(2) {
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
   
-  .nav-icon3.open span:nth-child(3) {
+  .burger.open span:nth-child(3) {
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
   }
   
-  .nav-icon3.open span:nth-child(4) {
+  .burger.open span:nth-child(4) {
 	top: 18px;
 	width: 0%;
 	left: 50%;

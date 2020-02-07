@@ -35,7 +35,7 @@ $(document).ready(function(){
   });
 
 $(function(){
-  // $('#nav-icon3').on('click', function(){
+  // $('#burger').on('click', function(){
   //   if ($('body').hasClass('hidden')) // *HASCLASS - ОЧЕНЬ УДОБНАЯ ФУНКЦИЯ ПРОВЕРКИ КЛАССА, А ТАКЖЕ ВКЛЮЧЕНИЯ И ВЫКЛЮЧЕНИЯ 
   //   {
   //   $('body').removeClass('hidden');}
@@ -44,7 +44,7 @@ $(function(){
   //   }
   // })
   
-	$('.nav-icon3').on('click', function(){
+	$('.burger').on('click', function(){
 		
 		$('.header__content___left').slideToggle(300, function(){
 			
@@ -58,7 +58,7 @@ $(function(){
 
 
 
-$('.nav-icon3').click(function(){
+$('.burger').click(function(){
   $(this).toggleClass('open');
 });
 
