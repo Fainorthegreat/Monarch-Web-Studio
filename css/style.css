@@ -667,11 +667,23 @@ path {
 		
 }
 
+.header__content ul li {
+	display: inline;
+}
+
+.header__content___left {
+	top: 42px;
+    left: 100px;
+    position: absolute;
+}
+
 .container-img {
 	left: 0;
 }
 
-
+.header__content__number a{
+	margin-left: 440px;
+}
 
 .fixed-container {
 	padding-left: 40px;
@@ -680,6 +692,11 @@ path {
 
 .call {
 	font-size: 16px;
+}
+
+.header__content__right {
+	display: flex;
+	justify-content: space-between;
 }
 
 /* !Menu ICON ANIMATION */
@@ -763,10 +780,6 @@ header {
  background-position: right -267px bottom -81px;
 }
 
-.header__content__number {
-	margin-left: 440px;
-}
-
 .header__content__info {
 	margin-top: 223px;
 }
@@ -829,6 +842,7 @@ header {
 
 .header__content {
 	width: 100%;
+	display: inline-block;
 }
 
 .man_img {
@@ -973,6 +987,15 @@ header {
 	.fly-elements__fly-div {
 		left: 1100px;
 	}
+
+	.container-img {
+		left: 300px;
+	}
+
+	.main-skills {
+		margin-left: 250px;
+		max-width: 600px;
+	}
 }
 
 @media (min-width:1151px) and (max-width:1300px) {
@@ -1008,9 +1031,43 @@ header {
 	}
 }
 
+@media (min-width: 1025px) and (max-width: 1919px) {
+	.main-skills {
+		max-width: none;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
 /* !PHONE */
 
 @media (min-width:320px) and (max-width:1023px) {
+
+	.header__content ul li {
+		display: block;
+		padding-left: 117px;
+		padding-right: 117px;
+		margin-right: 0;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		border-bottom: 1px solid red;
+	}
+
+	.header__content ul li:nth-child(3) {
+		border-bottom: none;
+	}
+
+	.header__content ul {
+		background-color: gray;
+	}
+	
+	.header__content___left {
+		top: 0;
+		left: 0;
+		z-index: 14;
+		position: absolute;
+	}
+
 	/* !Menu ICON ANIMATION */
 .burger {
 	width: 24px;
@@ -1202,9 +1259,6 @@ header {
 		margin-bottom: 50px;
 	}
 
-	.slills__decr {
-	}
-
 	.info__other {
 		width: 280px;
 		height: 55px;
@@ -1379,8 +1433,8 @@ header {
 	}
 }
 
-@media (min-width:321px) and (max-width:1023px) {
-	.container-bcg {
-		background-size: 440px;
+@media (min-width: 1240px) and (max-width: 1919px) {
+	.fixed-container {
+		padding: 0;
 	}
 }

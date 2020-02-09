@@ -45,7 +45,6 @@ $(function(){
   // })
   
 	$('.burger').on('click', function(){
-		
 		$('.header__content___left').slideToggle(300, function(){
 			
 			if($(this).css('display') === 'none'){
@@ -54,6 +53,7 @@ $(function(){
   });
   
    });
+
 });
 
 
