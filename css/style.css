@@ -673,7 +673,7 @@ path {
 
 .header__content___left {
 	top: 42px;
-    left: 100px;
+    left: 150px;
     position: absolute;
 }
 
@@ -980,23 +980,7 @@ header {
 
 }
 
-@media (min-width:1651px) and (max-width:1919px) {
-	.fly-elements__fly-slesh {
-		left: 950px;
-	}
-	.fly-elements__fly-div {
-		left: 1100px;
-	}
 
-	.container-img {
-		left: 300px;
-	}
-
-	.main-skills {
-		margin-left: 250px;
-		max-width: 600px;
-	}
-}
 
 @media (min-width:1151px) and (max-width:1300px) {
 	.main-skills {
@@ -1436,5 +1420,31 @@ header {
 @media (min-width: 1240px) and (max-width: 1919px) {
 	.fixed-container {
 		padding: 0;
+	}
+
+	.header__content___left {
+		left:300px;
+	}
+}
+
+@media (min-width:1651px) and (max-width:1919px) {
+	.fly-elements__fly-slesh {
+		left: 950px;
+	}
+	.fly-elements__fly-div {
+		left: 1100px;
+	}
+
+	.container-img {
+		left: 300px;
+	}
+
+	.main-skills {
+		margin-left: 250px;
+		max-width: 600px;
+	}
+
+	.header__content___left {
+		left: 450px;
 	}
 }
