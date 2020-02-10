@@ -27,7 +27,7 @@ $(document).ready(function(){
       },
     });
     
-    $(".header__content___left").on("click","a", function (event) {
+    $(".header__content__left").on("click","a", function (event) {
       event.preventDefault();
       var id  = $(this).attr('href'),
           top = $(id).offset().top;
@@ -45,7 +45,7 @@ $(function(){
   // })
   
 	$('.burger').on('click', function(){
-		$('.header__content___left').slideToggle(300, function(){
+		$('.header__content__left').slideToggle(300, function(){
 			
 			if($(this).css('display') === 'none'){
         $(this).removeAttr('style');   
