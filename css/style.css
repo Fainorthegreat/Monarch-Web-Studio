@@ -408,6 +408,10 @@ path {
 	color: #8993ad;
 }
 
+.footer-info__social ul li {
+	display: inline;
+	list-style: none;
+}
 
 .main-third__title__info {
 	margin: auto;
@@ -1167,14 +1171,14 @@ header {
 	}  
 	
 	.fly-elements__fly-slesh {
-		left: 190px;
+		left: 60%;
 		top: 75px;
 		font-size: 22px;
 		transform: rotate(-30deg);
 	}
 
 	.fly-elements__fly-div2 {
-		left: 250px;
+		left: 76%;
 		font-size: 15px;
 		top: 145px;
 		transform: rotate(30deg);
@@ -1256,6 +1260,12 @@ header {
 		justify-content: center;
 	}
 
+	.swiper-slide {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
 	.swiper-pagination {
 		top: 50px;
 		display: block;
@@ -1272,6 +1282,7 @@ header {
 	}
 
 	.swiper-descr {
+		width: 100%;
 		font-size: 18px;
 		padding-top: 6px;
 	}
@@ -1410,7 +1421,6 @@ header {
 	.swiper-container img {
 		width: 282px;
 		height: 251px;
-		margin-left: 20px;
 	}
 	
 	.header__content__about-me {
@@ -1449,3 +1459,4 @@ header {
 		left: 450px;
 	}
 }
+
