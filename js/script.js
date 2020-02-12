@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  
+  $('#callback').click(function(){
+    $('.popup').show();
+    $('.popup').css('display', 'flex');
+  })
     $('.fly-elements__fly-selector, .fly-elements__fly-teg,  .fly-elements__fly-slesh, .fly-elements__fly-div2, .fly-elements__fly-div').removeClass('anim anim2');
 
     var mySwiper = new Swiper ('.swiper-container', {
@@ -61,6 +64,8 @@ $(function(){
 $('.burger').click(function(){
   $(this).toggleClass('open');
 });
+
+
 
 
   });

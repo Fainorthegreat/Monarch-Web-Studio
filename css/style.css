@@ -95,6 +95,10 @@ header {
 	background-color: #fbfbfb;
 }
 
+.owhidden {
+	overflow: hidden;
+}
+
 .container-bcg {
 	background-image: url(../img/Ellipse_header.svg);
 	background-position: right bottom;
@@ -1463,15 +1467,76 @@ header {
 /* !POPUP */
 
 .popup {
+	display: flex;
+	display: none;
+	position: fixed;
 	width: 100%;
 	height: 100%;
-	background-color: grey;
-	display: flex;
+	background-color: #7f7f7f57;
 	justify-content: center;
 	flex-wrap: wrap;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 500;
+}
+
+.form-group input {
+	margin: 15px auto;
+	width: 70%;
+	font-size: 16px;
+} 
+
+form input {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border: 0;
+	border-radius: 35px;
 }
 
 .form-group {
-	align-content: center;
-	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
+
+form {
+	background-color: whitesmoke;
+	/* padding-top: 55px; */
+	padding-bottom: 55px;
+	border-radius: 55px;
+	align-self: center;
+}
+
+form h2 {
+	text-align: center;
+	font-size: 25px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+} 
+
+form button {
+	border: 0;
+	border-radius: 35px;
+	padding: 5px 10px;
+	width: 270px;
+	height: 60px;
+	margin-top: 30px;
+	background-color: #a44200;
+	color: white;
+	align-self: center;
+	font-size: 18px;
+}
+
+.close {
+	border: 0;
+	border-radius: none;
+	background-color: #a4420000;
+	height: 25px;
+	width: 25px;
+	background-image: url(../img/close.png);
+	background-size: 25px 25px;
+}
+
