@@ -51,20 +51,21 @@
         </div>
     </header>
     <main>
-        <div class="fly-elements">
-            <div class="fly-elements__fly-div anim2">&lt;div&gt;</div>
-            <div class="fly-elements__fly-teg anim">#</div>
-            <div class="fly-elements__fly-div2 anim2">&lt;div&gt;</div>
-            <div class="fly-elements__fly-slesh anim2">&lt;/&gt;</div>
-            <div class="fly-elements__fly-slesh2 anim2">&lt;/&gt;</div>
-            <div class="fly-elements__fly-selector anim1">{ }</div>
-        </div>
+        
         <div class="container-bcg">
             <div class="header__content__about-me clearfix">
             <div class="header__content__info">
                 <h1 class="info__name">Виталий Петров</h1>
                 <h2 class="info__description">Frontend-разработчик и веб-верстальщик</h2>
-                <button class="info__other">Узнать больше</button>
+                <button id="moreinfo" class="info__other">Узнать больше</button>
+                <div class="fly-elements">
+                    <div class="fly-elements__fly-div anim2">&lt;div&gt;</div>
+                    <div class="fly-elements__fly-teg anim">#</div>
+                    <div class="fly-elements__fly-div2 anim2">&lt;div&gt;</div>
+                    <div class="fly-elements__fly-slesh anim2">&lt;/&gt;</div>
+                    <div class="fly-elements__fly-slesh2 anim2">&lt;/&gt;</div>
+                    <div class="fly-elements__fly-selector anim1">{ }</div>
+                </div>
         </div>
         <div class="container-img">
             <picture>
@@ -74,13 +75,13 @@
         </div>
     </div>
     </div>
-        <div class="main__phone">
+        <section class="main__info"> 
             <div class="phone__info">
                 <div class="info__name-phone">Виталий Петров</div>
                 <div class="info__description-phone">Frontend-разработчик и веб-верстальщик</div>
                 <button class="info__other-phone">Узнать больше</button>
             </div>
-        </div>
+        </section>
         <section class="main__first">
             <div class="fixed-container">
                 <div class="main-content">
@@ -194,9 +195,11 @@
 </div>
 <div>
     <div class="popup">
-        <form action="" method="POST">
-            <h2>Получить консультацию</h2>
-                <button class="close"></button>
+        <form action="">
+            <button class="close"></button>
+            <div class="popup__title">
+                <h2>Получить консультацию</h2>
+            </div>
             <div class="form-group">
               <label for="fname"></label>
               <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Как к Вам обращаться?">

@@ -1,8 +1,42 @@
 $(document).ready(function(){
+
   $('#callback').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
   })
+
+  $('.moreinfo').click(function(){
+    $('.popup').show();
+    $('.popup').css('display', 'flex');
+  })
+
+  $('.info__other').click(function(){
+    $('.popup').show();
+    $('.popup').css('display', 'flex');
+  })
+
+  $('.info__other_desctop').click(function(){
+    $('.popup').show();
+    $('.popup').css('display', 'flex');
+  })
+
+  $('.info__other_tablet').click(function(){
+    $('.popup').show();
+    $('.popup').css('display', 'flex');
+  })
+
+  $('.footer-info__call').click(function(){
+    $('.popup').show();
+    $('.popup').css('display', 'flex');
+  })
+
+
+
+  $('.close').click(function() {
+    event.preventDefault(); // !Позволяет отключить обновление страницы при закрытии модального окна
+    $('.popup').css('display', 'none')
+  })
+
     $('.fly-elements__fly-selector, .fly-elements__fly-teg,  .fly-elements__fly-slesh, .fly-elements__fly-div2, .fly-elements__fly-div').removeClass('anim anim2');
 
     var mySwiper = new Swiper ('.swiper-container', {

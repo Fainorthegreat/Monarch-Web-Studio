@@ -169,10 +169,14 @@ path {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	max-width: 235px;
+	max-width: 234px;
 	text-align: center;
 	font-size: 19px;
 	color: #8993ad;
+}
+
+.skills h2 {
+	font-weight: 400;
 }
 
 .slills__decr {
@@ -326,13 +330,14 @@ path {
 	font-size: 18px;
 }
 
-.main__phone {
+.main__info {
 	display: none;
 	text-align: center;
 	margin-top: 10px;
 	margin-right: 20px;
 	margin-left: 20px;
 }
+
 
 .info__name-phone {
 	font-size: 30px;
@@ -1259,7 +1264,7 @@ header {
 		margin-bottom: 50px;
 	}
 
-	.main__phone {
+	.main__info {
 		display: flex;
 		justify-content: center;
 	}
@@ -1514,7 +1519,7 @@ form h2 {
 	text-align: center;
 	font-size: 25px;
 	margin-top: 25px;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 } 
 
 form button {
@@ -1538,5 +1543,13 @@ form button {
 	width: 25px;
 	background-image: url(../img/close.png);
 	background-size: 25px 25px;
+	margin: 0;
+	margin-top: 35px;
+	margin-left: 550px;
+	background-repeat: no-repeat;
 }
 
+.popup__title {
+	display: flex;
+	justify-content: center;
+}
