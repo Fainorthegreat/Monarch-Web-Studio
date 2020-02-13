@@ -20,6 +20,11 @@ $(document).ready(function(){
     $('.popup').css('display', 'flex');
   })
 
+  $('.info__other-phone').click(function(){
+    $('.popup').show();
+    $('.popup').css('display', 'flex');
+  })
+
   $('.info__other_tablet').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
