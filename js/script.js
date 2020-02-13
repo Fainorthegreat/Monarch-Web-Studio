@@ -5,12 +5,12 @@ $(document).ready(function(){
     $('.popup').css('display', 'flex');
   })
 
-  $('.moreinfo').click(function(){
+  $('#moreinfo').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
   })
 
-  $('.info__other').click(function(){
+  $('.info__other-button').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
   })
