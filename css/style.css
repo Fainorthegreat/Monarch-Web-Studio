@@ -185,7 +185,7 @@ form button {
 	overflow: hidden;
 }
 
-.container-bcg {
+.main__box-bcg {
 	background-image: url(../img/Ellipse_header.svg);
 	background-position: right bottom;
 	background-repeat: no-repeat;
@@ -356,7 +356,7 @@ path {
 	cursor: pointer;
 }
 
-.header_content__about-me {
+.main__major-info {
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
@@ -624,7 +624,7 @@ path {
 	-webkit-text-fill-color: transparent;
 }
 
-.container-bcg__fly-elements__fly-div {
+.animation__div {
 	top: 170px;
 	left: 890px;
 	transform: rotate(-15deg);
@@ -632,7 +632,7 @@ path {
 	transition: 3s;
 }
 
-.container-bcg__fly-elements__fly-div2 {
+.animation__div2 {
 	top: 542px;
 	left: 1055px;
 	transform: rotate(15deg);
@@ -640,7 +640,7 @@ path {
 	transition: 2s;
 }
 
-.container-bcg__fly-elements__fly-slesh {
+.animation__slesh {
 	top: 674px;
 	left: 481px;
 	transform: rotate(-22deg);
@@ -648,7 +648,7 @@ path {
 	transition: 1s;
 }
 
-.container-bcg__fly-elements__fly-slesh2 {
+.animation__slesh2 {
 	display: none;
 	transform: rotate(180deg);
 	font-size: 38px;
@@ -664,7 +664,7 @@ path {
 	left: 259px;
 }
 
-.container-bcg__fly-elements__fly-teg {
+.animation__teg {
 	top: 360px;
 	left: 348px;
 	transform: rotate(25deg);
@@ -672,7 +672,7 @@ path {
 	transition: 3s;
 }
 
-.container-bcg__fly-elements__fly-selector {
+.animation__selector {
 	top: 138px;
 	left: 230px;
 	transform: rotate(25deg);
@@ -680,11 +680,11 @@ path {
 	transition: 1s;
 }
 
-.container-bcg__fly-elements__fly-selector,
-.container-bcg__fly-elements__fly-teg,
-.container-bcg__fly-elements__fly-slesh,
-.container-bcg__fly-elements__fly-div2,
-.container-bcg__fly-elements__fly-div {
+.animation__selector,
+.animation__teg,
+.animation__slesh,
+.animation__div2,
+.animation__div {
 	position: absolute;
 	transition: all 2sec ease-out;
 	background-image: linear-gradient(180deg, #a44200 15%, #f2c17d 74%);
@@ -883,32 +883,32 @@ header {
 	margin-top: 223px;
 }
 
-.container-bcg__fly-elements__fly-selector {
+.animation__selector {
 	top: 156px;
 	left: 81px;
 }
 
-.container-bcg__fly-elements__fly-slesh {
+.animation__slesh {
 	top: 581px;
 	left: 359px;
 }
 
-.container-bcg__fly-elements__fly-slesh2 {
+.animation__slesh2 {
 	display: inline-block;
 	rotate: 190deg;
 }
 
-.container-bcg__fly-elements__fly-teg {
+.animation__teg {
 	top: 630px;
 	left: 59px;
 }
 
-.container-bcg__fly-elements__fly-div {
+.animation__div {
 	top: 220px;
     left: 487px;
 }
 
-.container-bcg__fly-elements__fly-div2 {
+.animation__div2 {
 	top: 547px;
 	left: 871px;
 	z-index: 2;
@@ -922,7 +922,7 @@ header {
 	display: inline;
 }
 
-.container-bcg {
+.main__box-bcg {
 	background-position: right -270px bottom;
 }
 
@@ -1005,7 +1005,7 @@ header {
 	left: 17px;
 }
 
-.swiper-button-next, .swiper-button-prev, .main__third__teg-bracket-left, .main__third__teg-bottom, .anim2, .container-bcg__fly-elements__fly-div2  {
+.swiper-button-next, .swiper-button-prev, .main__third__teg-bracket-left, .main__third__teg-bottom, .anim2, .animation__div2  {
 	display: none;
 }
 
@@ -1090,7 +1090,7 @@ header {
 }
 
 @media (min-width:1301px) and (max-width:1650px) {
-	.container-bcg__fly-elements__fly-slesh {
+	.animation__slesh {
 		left: 750px;
 	}
 
@@ -1246,32 +1246,32 @@ header {
 	}
 
 	.header__contact__call,
-	.container-bcg__fly-elements__fly-div,
+	.animation__div,
 	.swiper-button-prev,
 	.swiper-button-next {
 		display: none;
 	}
 
-	.container-bcg__fly-elements__fly-selector {
+	.animation__selector {
 		font-size: 22px;
 		left: 50px;
 		top: 100px;
 	}
 
-	.container-bcg__fly-elements__fly-teg {
+	.animation__teg {
 		left: 37px;
 		top: 205px;
 		font-size: 24px;
 	}  
 	
-	.container-bcg__fly-elements__fly-slesh {
+	.animation__slesh {
 		left: 60%;
 		top: 75px;
 		font-size: 22px;
 		transform: rotate(-30deg);
 	}
 
-	.container-bcg__fly-elements__fly-div2 {
+	.animation__div2 {
 		left: 76%;
 		font-size: 15px;
 		top: 145px;
@@ -1501,7 +1501,7 @@ header {
 		padding: 0;
 	}
 
-	.container-bcg {
+	.main__box-bcg {
 		background-image: url(../img/Ellipse_phone.svg);
 		height: 412px;
 	}
@@ -1517,7 +1517,7 @@ header {
 		height: 251px;
 	}
 	
-	.header_content__about-me {
+	.main__major-info {
 		justify-content: center;
 	}
 
@@ -1545,10 +1545,10 @@ form {
 }
 
 @media (min-width:1651px) and (max-width:1919px) {
-	.container-bcg__fly-elements__fly-slesh {
+	.animation__slesh {
 		left: 950px;
 	}
-	.container-bcg__fly-elements__fly-div {
+	.animation__div {
 		left: 1100px;
 	}
 

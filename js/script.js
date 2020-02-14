@@ -42,7 +42,7 @@ $(document).ready(function(){
     $('.popup').css('display', 'none')
   })
 
-    $('.container-bcg__fly-elements__fly-selector, .container-bcg__fly-elements__fly-teg,  .container-bcg__fly-elements__fly-slesh, .container-bcg__fly-elements__fly-div2, .container-bcg__fly-elements__fly-div').removeClass('anim anim2');
+    $('.animation__selector, .animation__teg,  .animation__slesh, .animation__div2, .animation__div').removeClass('anim anim2');
 
     var mySwiper = new Swiper ('.swiper-container', {
       loop: true,
