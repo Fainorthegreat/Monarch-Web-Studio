@@ -69,7 +69,8 @@ $(document).ready(function(){
       },
     });
     
-    $(".fixed-container__header-content__left").on("click","a", function (event) {
+  //  !OK 
+   $(".header__menu").on("click","a", function (event) {
       event.preventDefault();
       var id  = $(this).attr('href'),
           top = $(id).offset().top;
@@ -86,8 +87,8 @@ $(function(){
   //   }
   // })
   
-	$('.fixed-container__header-content').on('click', function(){
-		$('.fixed-container__header-content__left').slideToggle(300, function(){
+	$('.burger__button').on('click', function(){
+		$('.header__menu').slideToggle(300, function(){
 			
 			if($(this).css('display') === 'none'){
         $(this).removeAttr('style');   
