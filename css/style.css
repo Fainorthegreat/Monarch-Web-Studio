@@ -196,7 +196,7 @@ form button {
 	padding-right: 40px;
 }
 
-.container-img {
+.header__photo {
 	position: relative;
 	left: 200px;
 	margin-top: 57px;
@@ -381,6 +381,16 @@ path {
 	margin-bottom: 45px;
 }
 
+.info__button {
+	margin-bottom: 100px;
+	color: #fff;
+	width: 270px;
+	height: 60px;
+	background-color: #a44200;
+	border: none;
+	font-size: 18px;	
+}
+
 .info__other-button {
 	margin-bottom: 100px;
 	color: #fff;
@@ -416,7 +426,7 @@ path {
 	font-size: 18px;
 }
 
-.main-info {
+.main__phone {
 	display: none;
 	text-align: center;
 	margin-top: 10px;
@@ -425,20 +435,20 @@ path {
 }
 
 
-.info__name-phone {
+.phone__info__name {
 	font-size: 30px;
 	font-weight: 700;
 
 }
 
-.info__description-phone {
+.phone__info__descr {
 	font-size: 16px;
 	color: #8993ad;
 	margin-top: 10px;
 	margin-bottom: 27px;
 }
 
-.info__other-phone {
+.phone__info__button {
 	color: #fff;
 	width: 280px;
 	height: 55px;
@@ -776,7 +786,7 @@ path {
     position: absolute;
 }
 
-.container-img {
+.header__photo {
 	left: 0;
 }
 
@@ -932,6 +942,11 @@ header {
 
 .info__description {
 	font-size: 25px;
+}
+
+.info__button {
+	width: 320px;
+	height: 68px;	
 }
 
 .info__other-button {
@@ -1103,7 +1118,7 @@ header {
 }
 
 @media (min-width:1025px) and (max-width:1650px) {
-	.container-img {
+	.header__photo {
 		left:50px
 	}
 }
@@ -1342,6 +1357,13 @@ header {
 		margin-bottom: 50px;
 	}
 
+	.info__button {
+		width: 280px;
+		height: 55px;
+		font-size: 16px;	
+		margin-bottom: 50px;
+	}
+
 	.info__other-button {
 		width: 280px;
 		height: 55px;
@@ -1349,7 +1371,7 @@ header {
 		margin-bottom: 50px;
 	}
 
-	.main-info {
+	.main__phone {
 		display: flex;
 		justify-content: center;
 	}
@@ -1506,7 +1528,7 @@ header {
 		height: 412px;
 	}
 	
-	.container-img {
+	.header__photo {
 		left: 0;
 		margin: 0;
 		bottom: 22px;
@@ -1552,7 +1574,7 @@ form {
 		left: 1100px;
 	}
 
-	.container-img {
+	.header__photo {
 		left: 300px;
 	}
 

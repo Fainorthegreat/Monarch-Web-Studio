@@ -10,6 +10,11 @@ $(document).ready(function(){
     $('.popup').css('display', 'flex');
   })
 
+  $('.info__button').click(function(){
+    $('.popup').show();
+    $('.popup').css('display', 'flex');
+  })
+
   $('.info__other-button').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
@@ -20,7 +25,7 @@ $(document).ready(function(){
     $('.popup').css('display', 'flex');
   })
 
-  $('.info__other-phone').click(function(){
+  $('.phone__info__button').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
   })
