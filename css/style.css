@@ -73,6 +73,10 @@ body {
 	padding: 0;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 .main__third {
 	/* height: 364px; */
 	background-color: #a44200;
