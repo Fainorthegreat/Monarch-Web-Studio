@@ -1175,6 +1175,10 @@ header {
 		position: absolute;
 	}
 
+	.burger__button {
+		display: block;
+	}
+
 	/* .main__phone {
 		text-align: center;
 		margin-top: 10px;
