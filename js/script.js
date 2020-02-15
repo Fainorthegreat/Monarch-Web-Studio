@@ -15,12 +15,12 @@ $(document).ready(function(){
     $('.popup').css('display', 'flex');
   })
 
-  $('.info__other-button').click(function(){
+  $('.cost__button').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
   })
 
-  $('.info__other_desctop').click(function(){
+  $('.cost__desctop').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
   })
@@ -30,7 +30,7 @@ $(document).ready(function(){
     $('.popup').css('display', 'flex');
   })
 
-  $('.info__other_tablet').click(function(){
+  $('.cost__tablet').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
   })
@@ -74,7 +74,7 @@ $(document).ready(function(){
       },
     });
     
-    
+
    $(".header__menu").on("click","a", function (event) {
       event.preventDefault();
       var id  = $(this).attr('href'),
