@@ -20,12 +20,11 @@
     <div class="owhidden">
     <header class="header">
         <div class="fixed-container header_content">
-            <div class="header_content">
                 <nav class="header__menu menu">
-                    <ul class="menu__items">
-                        <li class="list__item"><a href="#services">Услуги</a></li>
-                        <li class="list__item"><a href="#exsamples">Портфолио</a></li>
-                        <li class="list__item"><a href="#cost">Стоимость</a></li>
+                    <ul class="menu__list">
+                        <li class="list__item"><a href="#services" class="list__link">Услуги</a></li>
+                        <li class="list__item"><a href="#exsamples" class="list__link">Портфолио</a></li>
+                        <li class="list__item"><a href="#cost" class="list__link">Стоимость</a></li>
                     </ul>
                 </nav>
                 <div class="header__burger burger"> 
@@ -36,15 +35,14 @@
                         <span class="burger__strip"></span>
                     </button>
                     <div class="header__contact">
-                        <a href="tel:+79774725703" >+7 (977) 472-57-03</a>
-                        <button id="callback" class="header__contact__call">Заказать звонок</button>
+                        <a href="tel:+79774725703" class="contact__number">+7 (977) 472-57-03</a>
+                        <button id="callback" class="contact__call">Заказать звонок</button>
                     </div>
-                </div>
             </div>
         </div>
     </header>
     <main class="main">
-        <section class="main__box-bcg">
+        <section class="main__about-me">
             <div class="main__major-info">
                 <div class="main__animation animation">
                     <div class="animation__div anim2">&lt;div&gt;</div>
@@ -54,25 +52,18 @@
                     <div class="animation__slesh2 anim2">&lt;/&gt;</div>
                     <div class="animation__selector anim1">{ }</div>
                 </div>
-            <div class="header-content__info info">
-                <h1 class="info__name">Виталий Петров</h1>
-                <h2 class="info__description">Frontend-разработчик и веб-верстальщик</h2>
-                <button id="moreinfo" class="info__button">Узнать больше</button>
-        </div>
-        <div class="header__photo">
-            <picture class="header__photo__img">
+                <div class="main__autor-info info">
+                    <h1 class="info__name">Виталий Петров</h1>
+                    <h2 class="info__description">Frontend-разработчик и веб-верстальщик</h2>
+                    <button id="moreinfo" class="info__button">Узнать больше</button>
+                </div>
+        <div class="main__my-photo">
+            <picture class="main__my-photo__img">
                 <source srcset="img/bivis-mini.png" media="(max-width:1023px)">
                     <img alt="Я" src="img/bivis.png">
             </picture>
         </div>
     </div>
-        </section>
-        <section class="main__phone"> 
-            <div class="phone__info">
-                <div class="phone__info__name">Виталий Петров</div>
-                <div class="phone__info__descr">Frontend-разработчик и веб-верстальщик</div>
-                <button class="phone__info__button">Узнать больше</button>
-            </div>
         </section>
         <section class="main__first">
             <div class="fixed-container">

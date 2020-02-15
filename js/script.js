@@ -74,7 +74,7 @@ $(document).ready(function(){
       },
     });
     
-  //  !OK 
+    
    $(".header__menu").on("click","a", function (event) {
       event.preventDefault();
       var id  = $(this).attr('href'),

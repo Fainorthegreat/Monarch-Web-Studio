@@ -172,7 +172,7 @@ form button {
 	background-size: 25px 25px;
 	margin: 0;
 	margin-top: 35px;
-	margin-left: 550px;
+	margin-left: 92%;
 	background-repeat: no-repeat;
 }
 
@@ -187,7 +187,7 @@ form button {
 	overflow: hidden;
 }
 
-.main__box-bcg {
+.main__about-me {
 	background-image: url(../img/Ellipse_header.svg);
 	background-position: right bottom;
 	background-repeat: no-repeat;
@@ -198,7 +198,7 @@ form button {
 	padding-right: 40px;
 }
 
-.header__photo {
+.main__my-photo {
 	position: relative;
 	left: 200px;
 	margin-top: 57px;
@@ -335,7 +335,7 @@ path {
 }
 
 .header__contact a {
-	margin-right: 30px;
+	margin-right: 20px;
 }
 
 .header__burger {
@@ -343,7 +343,7 @@ path {
 	align-items: center;
 }
 
-.header__contact__call {
+.contact__call {
 	color: #a44200;
 	background-color: transparent;
 	width: 207px;
@@ -352,7 +352,7 @@ path {
 	font-size: 16px;
 }
 
-.header__contact__call,
+.contact__call,
 .more_info,
 .call_footer {
 	cursor: pointer;
@@ -366,7 +366,7 @@ path {
 	max-width: 1170px;
 }
 
-.header-content__info {
+.main__autor-info {
 	z-index: 2;
 	margin-top: 206px;
 }
@@ -428,22 +428,12 @@ path {
 	font-size: 18px;
 }
 
-.main__phone {
-	display: none;
-	text-align: center;
-	margin-top: 10px;
-	margin-right: 20px;
-	margin-left: 20px;
-}
-
-
-.phone__info__name {
+/* .phone__info__name {
 	font-size: 30px;
 	font-weight: 700;
+} */
 
-}
-
-.phone__info__descr {
+/* .phone__info__descr {
 	font-size: 16px;
 	color: #8993ad;
 	margin-top: 10px;
@@ -457,7 +447,7 @@ path {
 	background-color: #a44200;
 	border: none;
 	font-size: 18px;
-}
+} */
 
 .second__examples {
 	margin-bottom: 95px;
@@ -788,7 +778,7 @@ path {
     position: absolute;
 }
 
-.header__photo {
+.main__my-photo {
 	left: 0;
 }
 
@@ -801,7 +791,7 @@ path {
 	padding-right: 40px;
 }
 
-.header__contact__call {
+.contact__call {
 	font-size: 16px;
 }
 
@@ -891,7 +881,7 @@ header {
  background-position: right -267px bottom -81px;
 }
 
-.header-content__info {
+.main__autor-info {
 	margin-top: 223px;
 }
 
@@ -934,7 +924,7 @@ header {
 	display: inline;
 }
 
-.main__box-bcg {
+.main__about-me {
 	background-position: right -270px bottom;
 }
 
@@ -1120,7 +1110,7 @@ header {
 }
 
 @media (min-width:1025px) and (max-width:1650px) {
-	.header__photo {
+	.main__my-photo {
 		left:50px
 	}
 }
@@ -1143,6 +1133,10 @@ header {
 
 @media (min-width:320px) and (max-width:1023px) {
 
+	.header {
+		background-color: white;
+	}
+
 	.header_content ul li {
 		width: 100%;
 		display: block;
@@ -1159,11 +1153,58 @@ header {
 		border-bottom: none;
 	}
 	
+	.header__burger {
+		margin-top: 25px;
+	}
+
+	.header__contact {
+		display: flex;
+	}
+
 	.header__menu {
 		top: 80px;
 		left: 0;
 		z-index: 14;
 		position: absolute;
+	}
+
+	/* .main__phone {
+		text-align: center;
+		margin-top: 10px;
+		margin-right: 20px;
+		margin-left: 20px;
+	} */
+
+	.info__name {
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+
+	.info__description {
+		font-size: 16px;
+		margin-bottom: 23px;
+	}
+
+	.main__autor-info, .info__name , .info__description {
+		width: 100%;
+	}
+
+	.main__autor-info {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+		margin-top: 0;
+		order: 3;
+	}
+
+	.main__about-me {
+		background-position-y: 117px;
+		background-color: white;
+	}
+
+	.info__button {
+		margin: 0;
 	}
 
 	/* !Menu ICON ANIMATION */
@@ -1262,7 +1303,7 @@ header {
 		margin-left: 40px;
 	}
 
-	.header__contact__call,
+	.contact__call,
 	.animation__div,
 	.swiper-button-prev,
 	.swiper-button-next {
@@ -1295,7 +1336,7 @@ header {
 		transform: rotate(30deg);
 	}
 
-	.header__contact__call {
+	.contact__call {
 		display: inline-block;
 		border: 0;
 		font-size: 0;
@@ -1319,10 +1360,6 @@ header {
 		display: inline;
 		top: 35px;
 		left: 16px;
-	}
-
-	.header-content__info {
-		display: none;
 	}
 
 	.header_content {
@@ -1362,8 +1399,7 @@ header {
 	.info__button {
 		width: 280px;
 		height: 55px;
-		font-size: 16px;	
-		margin-bottom: 50px;
+		font-size: 16px;
 	}
 
 	.info__other-button {
@@ -1525,12 +1561,12 @@ header {
 		padding: 0;
 	}
 
-	.main__box-bcg {
+	.main__about-me {
 		background-image: url(../img/Ellipse_phone.svg);
-		height: 412px;
+    	height: 597px;
 	}
 	
-	.header__photo {
+	.main__my-photo {
 		left: 0;
 		margin: 0;
 		bottom: 22px;
@@ -1576,7 +1612,7 @@ form {
 		left: 1100px;
 	}
 
-	.header__photo {
+	.main__my-photo {
 		left: 300px;
 	}
 
