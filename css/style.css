@@ -95,6 +95,9 @@ header {
 	background-color: #fbfbfb;
 }
 
+.burger__button {
+	display: none;
+}
 
 /* !POPUP */
 
