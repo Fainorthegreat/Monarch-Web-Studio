@@ -955,11 +955,6 @@ header {
 	height: 68px;
 }
 
-.header--content {
-	width: 100%;
-	display: inline-block;
-}
-
 .man_img {
 	right: 50px;
 }

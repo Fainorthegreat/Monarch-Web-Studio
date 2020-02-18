@@ -3,3 +3,6 @@ _gsdata_/_insync_v4.gsl
 _gsdata_/_file_state_v4._gs
 _gsdata_/2020-0216-003834-MacBook Pro — Vitaly-web.log
 _gsdata_/2020-0216-003546-MacBook Pro — Vitaly-web.log
+*.log
+*._gs
+*._gs
