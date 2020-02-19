@@ -99,7 +99,7 @@ header {
 	background-color: #fbfbfb;
 }
 
-.burger__button {
+.header__burger {
 	display: none;
 }
 
@@ -194,7 +194,7 @@ form button {
 	overflow: hidden;
 }
 
-.main__about-me {
+.about {
 	background-image: url(../img/Ellipse_header.svg);
 	background-position: right bottom;
 	background-repeat: no-repeat;
@@ -205,7 +205,7 @@ form button {
 	padding-right: 40px;
 }
 
-.main__my-photo {
+.about__photo {
 	position: relative;
 	left: 200px;
 	margin-top: 57px;
@@ -228,13 +228,17 @@ path {
 	clear: both;
 }
 
+.callback {
+	display: flex;
+}
+
 .fixed-container {
 	margin: 0 auto;
 	max-width: 1170px;
 	width: 100%;
 }
 
-.main__first {
+.first {
 	margin: auto;
 }
 
@@ -243,7 +247,7 @@ path {
 	overflow: hidden;
 }
 
-.content__title {
+.title {
 	text-align: center;
 	width: 100%;
 	padding-top: 85px;
@@ -252,7 +256,7 @@ path {
 	font-weight: 700;
 }
 
-.content__skills {
+.first__skills {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 108px;
@@ -260,7 +264,7 @@ path {
 	margin-right: 0;
 }
 
-.skills {
+.skills__box {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -270,7 +274,7 @@ path {
 	color: #8993ad;
 }
 
-.skills h2 {
+.skills__box h2 {
 	font-weight: 400;
 }
 
@@ -309,9 +313,8 @@ path {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: baseline;
+	align-items: center;
 	padding-top: 30px;
-	max-width: 1170px;
 }
 
 .header--content ul li {
@@ -334,21 +337,19 @@ path {
 	color: #b82e1f;
 }
 
-.header__contact {
+.callback__number {
 	font-weight: 700;
 	font-size: 25px;
-}
-
-.header__contact a {
+	line-height: 45px;
 	margin-right: 20px;
 }
 
-.header__burger {
+.header__right {
 	display: flex;
 	align-items: center;
 }
 
-.contact__call {
+.callback__button {
 	color: #a44200;
 	background-color: transparent;
 	width: 207px;
@@ -357,13 +358,13 @@ path {
 	font-size: 16px;
 }
 
-.contact__call,
+.callback__button,
 .more_info,
 .call_footer {
 	cursor: pointer;
 }
 
-.main__major-info {
+.about__info {
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
@@ -371,24 +372,23 @@ path {
 	max-width: 1170px;
 }
 
-.main__autor-info {
+.author__info {
 	z-index: 2;
-	margin-top: 206px;
+	margin-top: 100px;
 }
 
-.info__name {
+.author__info {
 	font-size: 80px;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
 
-.info__description {
+.author__descr {
 	font-size: 25px;
 	color: #8993ad;
-	margin-bottom: 45px;
 }
 
-.info__button {
+.btn {
 	margin-bottom: 100px;
 	color: #fff;
 	width: 270px;
@@ -398,7 +398,7 @@ path {
 	font-size: 18px;	
 }
 
-.cost__button {
+.first__button {
 	margin-bottom: 100px;
 	color: #fff;
 	width: 270px;
@@ -433,7 +433,7 @@ path {
 	font-size: 18px;
 }
 
-/* .phone__info__name {
+/* .phone__author__info {
 	font-size: 30px;
 	font-weight: 700;
 } */
@@ -445,7 +445,7 @@ path {
 	margin-bottom: 27px;
 }
 
-.phone__info__button {
+.phone__author__button {
 	color: #fff;
 	width: 280px;
 	height: 55px;
@@ -700,12 +700,12 @@ path {
 	font-weight: 700;
 }
 
-.anim {
+.anim--1 {
 	left: 0;
 	top: 0;
 }
 
-.anim2 {
+.anim--2 {
 	left: 1400px;
 }
 
@@ -762,7 +762,7 @@ path {
 	display: none;
 }
 
-#burger__button {
+#header__burger  {
 	display: none;
 }
 
@@ -777,7 +777,7 @@ path {
 	display: inline;
 }
 
-.burger__button {
+.header__burger  {
 	display: block;
 }
 
@@ -787,11 +787,11 @@ path {
     position: absolute;
 }
 
-.main__my-photo {
+.about__photo {
 	left: 0;
 }
 
-.header__contact a{
+.callback__number a{
 	margin-left: 440px;
 }
 
@@ -800,17 +800,17 @@ path {
 	padding-right: 40px;
 }
 
-.contact__call {
+.callback__button {
 	font-size: 16px;
 }
 
-.header__burger {
+.header__right {
 	display: flex;
 	justify-content: space-between;
 }
 
 /* !Menu ICON ANIMATION */
-.burger__button {
+.header__burger {
 	width: 45px;
 	height: 40px;
 	position: relative;
@@ -829,7 +829,7 @@ path {
   }
 
   
- .burger__button span {
+ .header__burger span {
 	display: block;
 	position: absolute;
 	height: 5px;
@@ -848,39 +848,39 @@ path {
   }
 
 
-.burger__button span:nth-child(1) {
+.header__burger span:nth-child(1) {
 	top: 0px;
   }
   
-  .burger__button span:nth-child(2),.burger__button span:nth-child(3) {
+  .header__burger span:nth-child(2),.header__burger span:nth-child(3) {
 	top: 18px;
   }
   
-  .burger__button span:nth-child(4) {
+  .header__burger span:nth-child(4) {
 	top: 36px;
   }
   
-  .burger__button.open span:nth-child(1) {
+  .header__burger.open span:nth-child(1) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
   }
   
-  .burger__button.open span:nth-child(2) {
+  .header__burger.open span:nth-child(2) {
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
   
-  .burger__button.open span:nth-child(3) {
+  .header__burger.open span:nth-child(3) {
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
   }
   
-  .burger__button.open span:nth-child(4) {
+  .header__burger.open span:nth-child(4) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
@@ -890,7 +890,7 @@ header {
  background-position: right -267px bottom -81px;
 }
 
-.main__autor-info {
+.author__info {
 	margin-top: 223px;
 }
 
@@ -933,24 +933,24 @@ header {
 	display: inline;
 }
 
-.main__about-me {
+.about {
 	background-position: right -270px bottom;
 }
 
-.info__name {
+.author__info {
 	font-size: 54px;
 }
 
-.info__description {
+.author__descr {
 	font-size: 25px;
 }
 
-.info__button {
+.author__button {
 	width: 320px;
 	height: 68px;	
 }
 
-.cost__button {
+.first__button {
 	width: 320px;
 	height: 68px;
 }
@@ -959,11 +959,11 @@ header {
 	right: 50px;
 }
 
-.anim2 {
+.anim--2 {
 	left: 430px;
 }
 
-.content__skills {
+.first__skills {
 	margin-top: 85px;
     margin-bottom: 0;
     margin-left: 155px;
@@ -971,7 +971,7 @@ header {
 	flex-wrap: wrap;
 }
 
-.content__title {
+.title {
 	margin-top: 79px;
 	padding: 0;
 }
@@ -1016,7 +1016,7 @@ header {
 	left: 17px;
 }
 
-.swiper-button-next, .swiper-button-prev, .fly-elements__third__teg-l, .fly-elements__third__teg, .anim2, .animation__div2  {
+.swiper-button-next, .swiper-button-prev, .fly-elements__third__teg-l, .fly-elements__third__teg, .anim--2, .animation__div2  {
 	display: none;
 }
 
@@ -1093,7 +1093,7 @@ header {
 
 
 @media (min-width:1151px) and (max-width:1300px) {
-	.content__skills {
+	.first__skills {
 		justify-content: space-around;
 		margin-left: 0;
 		margin-right: 0;
@@ -1107,26 +1107,26 @@ header {
 
 
 
-	.content__skills {
+	.first__skills {
 		margin-left: 0;
 		margin-right: 0;
 	}
 }
 
 @media (min-width:1025px) and (max-width:1650px) {
-	.main__my-photo {
+	.about__photo {
 		left:50px
 	}
 }
 
 @media (min-width:1025px) and (max-width:1107px) {
-	.content__skills {
+	.first__skills {
 		justify-content: space-around;
 	}
 }
 
 @media (min-width: 1025px) and (max-width: 1919px) {
-	.content__skills {
+	.first__skills {
 		max-width: none;
 		margin-right: 0;
 		margin-left: 0;
@@ -1157,12 +1157,8 @@ header {
 		border-bottom: none;
 	}
 	
-	.header__burger {
+	.header__right {
 		margin-top: 25px;
-	}
-
-	.header__contact {
-		display: flex;
 	}
 
 	.header__menu {
@@ -1172,7 +1168,7 @@ header {
 		position: absolute;
 	}
 
-	.burger__button {
+	.header__burger {
 		display: block;
 	}
 
@@ -1183,21 +1179,21 @@ header {
 		margin-left: 20px;
 	} */
 
-	.info__name {
+	.author__info {
 		font-size: 30px;
 		margin-bottom: 0;
 	}
 
-	.info__description {
+	.author__descr {
 		font-size: 16px;
 		margin-bottom: 23px;
 	}
 
-	.main__autor-info, .info__name , .info__description {
+	.author__info, .author__info , .author__descr {
 		width: 100%;
 	}
 
-	.main__autor-info {
+	.author__info {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -1206,17 +1202,17 @@ header {
 		order: 3;
 	}
 
-	.main__about-me {
+	.about {
 		background-position-y: 117px;
 		background-color: white;
 	}
 
-	.info__button {
+	.author__button {
 		margin: 0;
 	}
 
 	/* !Menu ICON ANIMATION */
-.burger__button {
+.header__burger {
 	width: 24px;
 	height: 18px;
 	position: relative;
@@ -1235,7 +1231,7 @@ header {
 	background-color: #fbfbfb;
   }
   
- .burger__button span {
+ .header__burger span {
 	display: block;
 	position: absolute;
 	height: 3px;
@@ -1254,39 +1250,39 @@ header {
   }
 
 
-.burger__button span:nth-child(1) {
+.header__burger span:nth-child(1) {
 	top: 0px;
   }
   
-  .burger__button span:nth-child(2),.burger__button span:nth-child(3) {
+  .header__burger span:nth-child(2),.header__burger span:nth-child(3) {
 	top: 8px;
   }
   
-  .burger__button span:nth-child(4) {
+  .header__burger span:nth-child(4) {
 	top: 16px;
   }
   
-  .burger__button.open span:nth-child(1) {
+  .header__burger.open span:nth-child(1) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
   }
   
-  .burger__button.open span:nth-child(2) {
+  .header__burger.open span:nth-child(2) {
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
   
-  .burger__button.open span:nth-child(3) {
+  .header__burger.open span:nth-child(3) {
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
   }
   
-  .burger__button.open span:nth-child(4) {
+  .header__burger.open span:nth-child(4) {
 	top: 18px;
 	width: 0%;
 	left: 50%;
@@ -1303,15 +1299,15 @@ header {
 		width: 100%;
 		text-align: center;
 	}
-	.header__contact {
+	.callback__number {
 		font-size: 18px;
 	}
 
-	.header__contact a {
+	.callback__number a {
 		margin-left: 40px;
 	}
 
-	.contact__call,
+	.callback__button,
 	.animation__div,
 	.swiper-button-prev,
 	.swiper-button-next {
@@ -1344,7 +1340,7 @@ header {
 		transform: rotate(30deg);
 	}
 
-	.contact__call {
+	.callback__button {
 		display: inline-block;
 		border: 0;
 		font-size: 0;
@@ -1379,7 +1375,7 @@ header {
 		z-index: 2;
 	}
 
-	.content__title {
+	.title {
 		padding: 0;
 		margin-top: 42px;
 		margin-bottom: 42px;
@@ -1387,30 +1383,30 @@ header {
 		padding: 0 20px;
 	}
 
-	.content__skills {
+	.first__skills {
 		flex-direction: column;
 		align-items: center;
 		margin-bottom: 0;
 	}
 
-	.content__skills img {
+	.first__skills img {
 		width: 28%;
 		height: auto;
 		margin-bottom: 2px;
 	}
 
-	.skills {
+	.skills__box {
 		max-width: 220px;
 		margin-bottom: 50px;
 	}
 
-	.info__button {
+	.author__button {
 		width: 280px;
 		height: 55px;
 		font-size: 16px;
 	}
 
-	.cost__button {
+	.first__button {
 		width: 280px;
 		height: 55px;
 		font-size: 16px;	
@@ -1569,12 +1565,12 @@ header {
 		padding: 0;
 	}
 
-	.main__about-me {
+	.about {
 		background-image: url(../img/Ellipse_phone.svg);
     	height: 597px;
 	}
 	
-	.main__my-photo {
+	.about__photo {
 		left: 0;
 		margin: 0;
 		bottom: 22px;
@@ -1585,7 +1581,7 @@ header {
 		height: 251px;
 	}
 	
-	.main__major-info {
+	.about__info {
 		justify-content: center;
 	}
 
@@ -1620,11 +1616,11 @@ form {
 		left: 1100px;
 	}
 
-	.main__my-photo {
+	.about__photo {
 		left: 300px;
 	}
 
-	.content__skills {
+	.first__skills {
 		margin-left: 250px;
 		max-width: 600px;
 	}

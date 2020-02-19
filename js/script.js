@@ -15,7 +15,7 @@ $(document).ready(function(){
     $('.popup').css('display', 'flex');
   })
 
-  $('.cost__button').click(function(){
+  $('.first__button').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
   })
@@ -47,7 +47,7 @@ $(document).ready(function(){
     $('.popup').css('display', 'none')
   })
 
-    $('.animation__selector, .animation__teg,  .animation__slesh, .animation__div2, .animation__div').removeClass('anim anim2');
+    $('.animation__selector, .animation__teg,  .animation__slesh, .animation__div2, .animation__div').removeClass('anim--1 anim--2');
 
     var mySwiper = new Swiper ('.swiper-container', {
       loop: true,
@@ -92,7 +92,7 @@ $(function(){
   //   }
   // })
   
-	$('.burger__button').on('click', function(){
+	$('.header__burger burger').on('click', function(){
 		$('.header__menu').slideToggle(300, function(){
 			
 			if($(this).css('display') === 'none'){

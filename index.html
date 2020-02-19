@@ -20,73 +20,73 @@
         <div class="fixed-container header--content">
                 <nav class="header__menu menu">
                     <ul class="menu__list">
-                        <li class="list__item"><a href="#services" class="list__link">Услуги</a></li>
-                        <li class="list__item"><a href="#exsamples" class="list__link">Портфолио</a></li>
-                        <li class="list__item"><a href="#cost" class="list__link">Стоимость</a></li>
+                        <li class="menu__item"><a href="#services" class="menu__link">Услуги</a></li>
+                        <li class="menu__item"><a href="#exsamples" class="menu__link">Портфолио</a></li>
+                        <li class="menu__item"><a href="#cost" class="menu__link">Стоимость</a></li>
                     </ul>
                 </nav>
-                <div class="header__burger burger"> 
-                    <button class="burger__button">
+                <div class="header__right"> 
+                    <button class="header__burger burger">
                         <span class="burger__strip"></span>
                         <span class="burger__strip"></span>
                         <span class="burger__strip"></span>
                         <span class="burger__strip"></span>
                     </button>
-                    <div class="header__contact">
-                        <a href="tel:+79774725703" class="contact__number">+7 (977) 472-57-03</a>
-                        <button id="callback" class="contact__call">Заказать звонок</button>
+                    <div class="callback">
+                        <a href="tel:+79774725703" class="callback__number">+7 (977) 472-57-03</a>
+                        <button id="callback" class="callback__button">Заказать звонок</button>
                     </div>
             </div>
         </div>
     </header>
     <main class="main">
-        <section class="main__about-me">
-            <div class="main__major-info">
-                <div class="main__animation animation">
-                    <div class="animation__div anim2">&lt;div&gt;</div>
-                    <div class="animation__teg anim">#</div>
-                    <div class="animation__div2 anim2">&lt;div&gt;</div>
-                    <div class="animation__slesh anim2">&lt;/&gt;</div>
-                    <div class="animation__slesh2 anim2">&lt;/&gt;</div>
+        <section class="about">
+            <div class="about__info">
+                <div class="about__animation animation">
+                    <div class="animation__div anim--2">&lt;div&gt;</div>
+                    <div class="animation__teg anim--1">#</div>
+                    <div class="animation__div2 anim--2">&lt;div&gt;</div>
+                    <div class="animation__slesh anim--2">&lt;/&gt;</div>
+                    <div class="animation__slesh2 anim--2">&lt; /&gt;</div>
                     <div class="animation__selector anim1">{ }</div>
                 </div>
-                <div class="main__autor-info info">
-                    <h1 class="info__name">Виталий Петров</h1>
-                    <h2 class="info__description">Frontend-разработчик и веб-верстальщик</h2>
-                    <button id="moreinfo" class="info__button">Узнать больше</button>
+                <div class="author__info author">
+                    <h1 class="author__info">Виталий Петров</h1>
+                    <h2 class="author__descr">Frontend-разработчик и веб-верстальщик</h2>
+                    <button id="moreinfo" class="author__button btn">Узнать больше</button>
                 </div>
-        <div class="main__my-photo">
-            <picture class="main__my-photo__img">
+        <div class="about__photo photo">
+            <picture class="about__img">
                 <source srcset="img/bivis-mini.png" media="(max-width:1023px)">
-                    <img alt="Я" src="img/bivis.png" class="my-photo">
+                    <img alt="Я" src="img/bivis.png">
             </picture>
         </div>
     </div>
         </section>
-        <section class="main__first">
+        <section class="first">
             <div class="fixed-container">
                 <div class="first__content">
-                    <h2 class="content__title" id="services">Что я делаю</h2>
-                    <div class="content__skills">
-                        <div class="skills">
-                            <img src="img/tools-first.png" alt="tools" class="skill-img">
+                    <h2 class="title" id="services">Что я делаю</h2>
+                    <div class="first__skills skills">
+                        <div class="skills__box">
+                            <img src="img/tools-first.png" alt="tools">
                             <h2 class="slills__decr">Вёрстка лендинг–страниц <br>и сайтов любой сложности</h2>
                         </div>
-                        <div class="skills">
-                            <img src="img/tools-second.png" alt="tools2" class="skill-img">
+                        <div class="skills__box">
+                            <img src="img/tools-second.png" alt="tools2">
                             <h2 class="slills__decr">Адаптивная вёрстка под все <br> браузеры и устройства</h2>
                         </div>
-                        <div class="skills">
-                            <img src="img/tools-third.png" alt="tools3" class="skill-img">
+                        <div class="skills__box">
+                            <img src="img/tools-third.png" alt="tools3">
                             <h2 class="slills__decr">Frontend–разработка <br>и программирование</h2>
                         </div>
-                        <div class="skills">
-                            <img src="img/tools-4.png" alt="tools4" class="skill-img">
+                        <div class="skills__box">
+                            <img src="img/tools-4.png" alt="tools4">
                             <h2 class="slills__decr">Исправление и доработка <br> существующей вёрстки</h2>
                         </div>
                     </div>
                     <div class="first__cost">
-                        <button class="cost__button">Узнать стоимость</button>
+                        <button class="first__button btn">Узнать стоимость</button>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
         <section class="main__second">
             <div class="fixed-container">
                 <div class="second__content">
-                    <h2 class="content__title" id="exsamples">Примеры моих работ</h2>
+                    <h2 class="title" id="exsamples">Примеры моих работ</h2>
                     <div class="second__examples">
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
