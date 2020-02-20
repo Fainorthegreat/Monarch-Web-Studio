@@ -35,7 +35,7 @@ $(document).ready(function(){
     $('.popup').css('display', 'flex');
   })
 
-  $('.social__call').click(function(){
+  $('.footer__callback').click(function(){
     $('.popup').show();
     $('.popup').css('display', 'flex');
   })
@@ -92,11 +92,13 @@ $(function(){
   //   }
   // })
   
-	$('.header__burger burger').on('click', function(){
-		$('.header__menu').slideToggle(300, function(){
+	$('.header__burger').on('click', function(){
+		$('.menu__list').slideToggle(300, function(){
 			
 			if($(this).css('display') === 'none'){
         $(this).removeAttr('style');   
+
+        
     }
   });
   
