@@ -49,16 +49,16 @@ $(document).ready(function(){
 
     $('.animation__selector, .animation__teg,  .animation__slesh, .animation__div2, .animation__div').removeClass('anim--1 anim--2');
 
-    var mySwiper = new Swiper ('.swiper-container', {
+    var mySwiper = new Swiper ('.works-container', {
       loop: true,
       slidesPerView: 2,
       spaceBetween: 30,
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.works-slider__arrow-right',
+        prevEl: '.works-slider__arrow-left',
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: ".works-pagination",
         type: 'bullets',  
         },
       breakpoints: {

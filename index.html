@@ -41,7 +41,7 @@
     </header>
     <main class="main">
         <section class="about">
-            <div class="about__info">
+            <div class="fixed-container about--container">
                 <div class="about__animation animation">
                     <div class="animation__div anim--2">&lt;div&gt;</div>
                     <div class="animation__teg anim--1">#</div>
@@ -53,12 +53,12 @@
                 <div class="author__info author">
                     <h1 class="author__info">Виталий Петров</h1>
                     <h2 class="author__descr">Frontend-разработчик и веб-верстальщик</h2>
-                    <button id="moreinfo" class="author__button btn">Узнать больше</button>
+                    <button id="moreinfo" class="author__button btn--main">Узнать больше</button>
                 </div>
         <div class="about__photo photo">
-            <picture class="about__img">
+            <picture class="photo__img">
                 <source srcset="img/bivis-mini.png" media="(max-width:1023px)">
-                    <img alt="Я" src="img/bivis.png">
+                    <img alt="Виталий Петров - Frontend-разработчик" src="img/bivis.png">
             </picture>
         </div>
     </div>
@@ -70,19 +70,19 @@
                     <div class="first__skills skills">
                         <div class="skills__box">
                             <img src="img/tools-first.png" alt="tools">
-                            <h2 class="slills__decr">Вёрстка лендинг–страниц <br>и сайтов любой сложности</h2>
+                            <p class="slills__descr">Вёрстка лендинг–страниц <br>и сайтов любой сложности</p>
                         </div>
                         <div class="skills__box">
                             <img src="img/tools-second.png" alt="tools2">
-                            <h2 class="slills__decr">Адаптивная вёрстка под все <br> браузеры и устройства</h2>
+                            <p class="slills__descr">Адаптивная вёрстка под все <br> браузеры и устройства</p>
                         </div>
                         <div class="skills__box">
                             <img src="img/tools-third.png" alt="tools3">
-                            <h2 class="slills__decr">Frontend–разработка <br>и программирование</h2>
+                            <p class="slills__descr">Frontend–разработка <br>и программирование</p>
                         </div>
                         <div class="skills__box">
                             <img src="img/tools-4.png" alt="tools4">
-                            <h2 class="slills__decr">Исправление и доработка <br> существующей вёрстки</h2>
+                            <p class="slills__descr">Исправление и доработка <br> существующей вёрстки</p>
                         </div>
                     </div>
                     <div class="first__cost">
@@ -93,30 +93,31 @@
         </section>
         <section class="second">
             <div class="fixed-container">
-                <div class="second__content">
-                    <h2 class="title" id="exsamples">Примеры моих работ</h2>
-                    <div class="second__examples">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="img/map_1.png" alt="site_1" class="example-first">
-                                    <div class="swiper-descr">Сайт психолога Веры Антоновой</div>
+                <h2 class="title" id="exsamples">Примеры моих работ</h2>
+                <div class="second__examples works-slider">
+                        <div class="works-slider__arrow-right"></div>
+                        <div class="works-slider__arrow-left"></div>
+                        <div class="works-container">
+                            <div class="works-wrapper">
+                                <div class="works-slide"><img src="img/map_1.png" alt="site_1" class="example-first">
+                                    <!-- !FIX -->
+                                    <div class="works-descr">Сайт психолога Веры Антоновой</div>
                                 </div>
-                                <div class="swiper-slide"><img src="img/map_2.png" alt="site_2" class="example-second">
-                                    <div class="swiper-descr">Сайт магазина «Рыболов»</div>
+                                <div class="works-slide"><img src="img/map_2.png" alt="site_2" class="example-second">
+                                    <!-- !FIX -->
+                                    <div class="works-descr">Сайт магазина «Рыболов»</div>
                                 </div>
-                                <div class="swiper-slide"><img src="img/map_3.png" alt="site_3" class="example-third">
-                                    <div class="swiper-descr">Сайт магазина детской одежды</div>
+                                <div class="works-slide"><img src="img/map_3.png" alt="site_3" class="example-third">
+                                    <!-- !FIX -->
+                                    <div class="works-descr">Сайт магазина детской одежды</div>
                                 </div>
                             </div>  
-                            <div class="swiper-pagination"></div>
+                            <div class="works-pagination"></div>
                         </div>
-                    </div>
-                    <div class="second__cost">
-                        <button class="cost__desctop">Заказать проект</button>
-                        <button class="cost__tablet">Узнать стоимость</button>
-                    </div>
+                </div>
+                <div class="second__cost">
+                    <button class="cost__desctop">Заказать проект</button>
+                    <button class="cost__tablet">Узнать стоимость</button>
                 </div>
             </div>
         </section>
@@ -127,7 +128,8 @@
                 <div class="elements__div">&lt;div&gt;</div>
                 <div class="elements__tag">#</div>
                 <div class="elements__slash">&lt;/&gt;</div>
-            <div class="third__content cost"></div>
+            </div>
+            <div class="third__content cost">
                 <h2 class="cost__title">
                     Адаптивная вёрстка под все устройства и браузеры от 1000 рублей всего за 4 часа.
                         <p class="cost__descr">
@@ -138,12 +140,12 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="footer__info">
-            <nav class="footer__nav">
-                <ul class="column">
-                    <li class="column__item"><a href="#" class="column__link">Услуги</a></li>
-                    <li class="column__item"><a href="#" class="column__link">Портфолио</a></li>
-                    <li class="column__item"><a href="#" class="column__link">Стоимость</a></li>
+        <div class="fixed-container footer--info">
+            <nav class="footer__menu menu">
+                <ul class="footer__list">
+                    <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Портфолио</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Стоимость</a></li>
                 </ul>
             </nav>
             <div class="footer__contacts">
@@ -159,10 +161,10 @@
             <div class="footer__social">
                 <button class="footer__callback">Заказать звонок</button>
                     <ul class="footer__row social">
-                        <li class="social__item"><a href="https://vk.com/69guru" class="social-vk"></a></li>
-                        <li class="social__item"><a href="#" class="social-facebook"></a></li>
-                        <li class="social__item"><a href="#" class="social-twitter"></a></li>
-                        <li class="social__item"><a href="#" class="social-instagram"></a></li>
+                        <li class="social__item"><a href="https://vk.com/69guru" class="social__link social--vk"></a></li>
+                        <li class="social__item"><a href="#" class="social__link social--facebook"></a></li>
+                        <li class="social__item"><a href="#" class="social__link social--twitter"></a></li>
+                        <li class="social__item"><a href="#" class="social__link social--instagram"></a></li>
                     </ul>
             </div>
         </div>
