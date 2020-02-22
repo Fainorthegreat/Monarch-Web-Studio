@@ -1,51 +1,53 @@
 $(document).ready(function(){
 
   $('#callback').click(function(){
-    $('.popup').show();
+    $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
   })
 
   $('#moreinfo').click(function(){
-    $('.popup').show();
+    $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
   })
 
   $('.info__button').click(function(){
-    $('.popup').show();
+    $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
   })
 
   $('.first__button').click(function(){
-    $('.popup').show();
+    $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
   })
 
   $('.cost__desctop').click(function(){
-    $('.popup').show();
+    $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
   })
 
   $('.phone__info__button').click(function(){
-    $('.popup').show();
+    $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
   })
 
   $('.cost__tablet').click(function(){
-    $('.popup').show();
+    $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
   })
 
   $('.footer__callback').click(function(){
-    $('.popup').show();
+    $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
   })
 
 
 
-  $('.close').click(function() {
+  $('.popup__close').click(function() {
     event.preventDefault(); // !Позволяет отключить обновление страницы при закрытии модального окна
-    $('.popup').css('display', 'none')
+    $('.popup').fadeOut(300);
   })
+
+
 
     $('.animation__selector, .animation__teg,  .animation__slesh, .animation__div2, .animation__div').removeClass('anim--1 anim--2');
 
@@ -82,6 +84,13 @@ $(document).ready(function(){
       $('body,html').animate({scrollTop: top}, 800);
   });
 
+  $(".footer__menu").on("click","a", function (event) {
+    event.preventDefault();
+    var id  = $(this).attr('href'),
+        top = $(id).offset().top;
+    $('body,html').animate({scrollTop: top}, 800);
+});
+
 $(function(){
   // $('#fixed-container__header-content').on('click', function(){
   //   if ($('body').hasClass('hidden')) // *HASCLASS - ОЧЕНЬ УДОБНАЯ ФУНКЦИЯ ПРОВЕРКИ КЛАССА, А ТАКЖЕ ВКЛЮЧЕНИЯ И ВЫКЛЮЧЕНИЯ 
@@ -93,7 +102,7 @@ $(function(){
   // })
   
 	$('.header__burger').on('click', function(){
-		$('.menu__list').slideToggle(300, function(){
+		$('.header__menu').slideToggle(300, function(){
 			
 			if($(this).css('display') === 'none'){
         $(this).removeAttr('style');   

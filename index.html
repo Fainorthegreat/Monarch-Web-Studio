@@ -20,9 +20,9 @@
         <div class="fixed-container header--content">
                 <nav class="header__menu menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#services" class="menu__link">Услуги</a></li>
-                        <li class="menu__item"><a href="#exsamples" class="menu__link">Портфолио</a></li>
-                        <li class="menu__item"><a href="#cost" class="menu__link">Стоимость</a></li>
+                        <li class="menu__item"><a href="#services" class="menu__link hvr-link">Услуги</a></li>
+                        <li class="menu__item"><a href="#examples" class="menu__link hvr-link">Портфолио</a></li>
+                        <li class="menu__item"><a href="#cost" class="menu__link hvr-link">Стоимость</a></li>
                     </ul>
                 </nav>
                 <div class="header__right"> 
@@ -52,7 +52,7 @@
                 </div>
                 <div class="author__info author">
                     <h1 class="author__info">Виталий Петров</h1>
-                    <h2 class="author__descr">Frontend-разработчик и веб-верстальщик</h2>
+                    <h2 class="author__descr"><p>Frontend-разработчик и веб-верстальщик</p></h2>
                     <button id="moreinfo" class="author__button btn--main hvr">Узнать больше</button>
                 </div>
         <div class="about__photo photo">
@@ -69,19 +69,19 @@
                     <h2 class="title" id="services">Что я делаю</h2>
                     <div class="first__skills skills">
                         <div class="skills__box">
-                            <img src="img/tools-first.png" alt="tools">
+                            <img src="img/tools-first.png" alt="tools" class="skills__img">
                             <p class="slills__descr">Вёрстка лендинг–страниц <br>и сайтов любой сложности</p>
                         </div>
                         <div class="skills__box">
-                            <img src="img/tools-second.png" alt="tools2">
+                            <img src="img/tools-second.png" alt="tools2" class="skills__img">
                             <p class="slills__descr">Адаптивная вёрстка под все <br> браузеры и устройства</p>
                         </div>
                         <div class="skills__box">
-                            <img src="img/tools-third.png" alt="tools3">
+                            <img src="img/tools-third.png" alt="tools3" class="skills__img">
                             <p class="slills__descr">Frontend–разработка <br>и программирование</p>
                         </div>
                         <div class="skills__box">
-                            <img src="img/tools-4.png" alt="tools4">
+                            <img src="img/tools-4.png" alt="tools4" class="skills__img">
                             <p class="slills__descr">Исправление и доработка <br> существующей вёрстки</p>
                         </div>
                     </div>
@@ -93,26 +93,26 @@
         </section>
         <section class="second">
             <div class="fixed-container">
-                <h2 class="title" id="exsamples">Примеры моих работ</h2>
+                <h2 class="title" id="examples">Примеры моих работ</h2>
                 <div class="second__examples works-slider">
-                        <div class="works-slider__arrow-right"></div>
-                        <div class="works-slider__arrow-left"></div>
+                        <div class="works-slider__arrow-right hvr"></div>
+                        <div class="works-slider__arrow-left hvr"></div>
                         <div class="works-container">
                             <div class="works-wrapper">
-                                <div class="works-slide"><img src="img/map_1.png" alt="site_1">
+                                <div class="works-slide"><img src="img/map_1.png" alt="site_1" class="works-slide__img">
                                     <div class="works-descr">Сайт психолога Веры Антоновой</div>
                                 </div>
-                                <div class="works-slide"><img src="img/map_2.png" alt="site_2">
+                                <div class="works-slide"><img src="img/map_2.png" alt="site_2" class="works-slide__img">
                                     <div class="works-descr">Сайт магазина «Рыболов»</div>
                                 </div>
-                                <div class="works-slide"><img src="img/map_3.png" alt="site_3">
+                                <div class="works-slide"><img src="img/map_3.png" alt="site_3" class="works-slide__img">
                                     <div class="works-descr">Сайт магазина детской одежды</div>
                                 </div>
                             </div>  
                             <div class="works-pagination"></div>
                         </div>
                 </div>
-                <div class="second__cost">
+                <div class="second__cost" id="cost">
                     <button class="cost__desctop hvr">Заказать проект</button>
                     <button class="cost__tablet hvr">Узнать стоимость</button>
                 </div>
@@ -139,10 +139,10 @@
     <footer class="footer">
         <div class="fixed-container footer--info">
             <nav class="footer__menu menu">
-                <ul class="footer__list">
-                    <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Портфолио</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Стоимость</a></li>
+                <ul class="menu__list footer--column">
+                    <li class="menu__item column"><a href="#services" class="menu__link footer--link hvr-link">Услуги</a></li>
+                    <li class="menu__item column"><a href="#examples" class="menu__link footer--link hvr-link">Портфолио</a></li>
+                    <li class="menu__item column"><a href="#cost" class="menu__link footer--link hvr-link">Стоимость</a></li>
                 </ul>
             </nav>
             <div class="footer__contacts">
@@ -172,20 +172,20 @@
         </div>
     </footer>
 <div>
-    <div class="popup">
-        <form action="">
-            <button class="close"></button>
+    <div class="popup" id="esq">
+        <form class="popup__form" action="">
+            <button type="button" class="popup__close"></button>
             <div class="popup__title">
                 <h2>Получить консультацию</h2>
             </div>
-            <div class="form-group">
-              <label for="fname"></label>
-              <input type="text" class="form-control" name="fname" id="" aria-describedby="helpId" placeholder="Как к Вам обращаться?">
-              <label for="email"></label>
-              <input type="email" class="form-control" name="email" id="" aria-describedby="helpId" placeholder="Укажите email" required>
-              <label for="tel"></label>
-              <input type="tel" class="form-control" name="tel" placeholder="Ваш телефон" required>
-              <button type="submit">Свяжитесь со мной</button>
+            <div class="popup__content">
+              <label for="fname">Ваше имя</label>
+                <input type="text" class="popup__input" name="fname" id="fname" aria-describedby="helpId" placeholder="Имя">
+              <label for="email">Ваш Email</label>
+                <input type="email" class="popup__input" name="email" id="email" aria-describedby="helpId" placeholder="Email" required>
+              <label for="tel">Ваш телефон для связи</label>
+                <input type="tel" class="popup__input" name="tel" id="tel" placeholder="Номер телефона" required>
+              <button type="submit" class="popup__submit">Свяжитесь со мной</button>
             </div>
         </form>
     </div>
