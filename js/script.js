@@ -125,4 +125,10 @@ $('.fixed-container__header-content').click(function(){
 
 
   });
+
+  $(document).keydown(function(event) { 
+    if (event.keyCode == 27) { 
+      $('#esq').fadeOut(300);
+    }
+  });
   
