@@ -91,15 +91,7 @@ $(document).ready(function(){
     $('body,html').animate({scrollTop: top}, 800);
 });
 
-$(function(){
-  // $('#fixed-container__header-content').on('click', function(){
-  //   if ($('body').hasClass('hidden')) // *HASCLASS - ОЧЕНЬ УДОБНАЯ ФУНКЦИЯ ПРОВЕРКИ КЛАССА, А ТАКЖЕ ВКЛЮЧЕНИЯ И ВЫКЛЮЧЕНИЯ 
-  //   {
-  //   $('body').removeClass('hidden');}
-  //   else {
-  //   $('body').addClass('hidden');
-  //   }
-  // })
+
   
 	$('.header__burger').on('click', function(){
 		$('.header__menu').slideToggle(300, function(){
@@ -114,14 +106,6 @@ $(function(){
    });
 
 });
-
-
-
-// $('.fixed-container__header-content').click(function(){
-//   $(this).toggleClass('open');
-// });
-
-  });
 
 // !Позволяет закрыть модальное окно по по нажатию кнопки
 
