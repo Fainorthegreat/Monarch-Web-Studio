@@ -117,14 +117,13 @@ $(function(){
 
 
 
-$('.fixed-container__header-content').click(function(){
-  $(this).toggleClass('open');
-});
-
-
-
+// $('.fixed-container__header-content').click(function(){
+//   $(this).toggleClass('open');
+// });
 
   });
+
+// !Позволяет закрыть модальное окно по по нажатию кнопки
 
   $(document).keydown(function(event) { 
     if (event.keyCode == 27) { 
