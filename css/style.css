@@ -535,6 +535,10 @@ body {
 	list-style: none;
 }
 
+.social__link:hover {
+	opacity: 0.7;
+}
+
 .cost__title {
 	margin: auto;
 	padding-top: 85px;
