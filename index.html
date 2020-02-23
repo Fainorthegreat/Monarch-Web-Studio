@@ -20,9 +20,9 @@
         <div class="fixed-container header--content">
                 <nav class="header__menu menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#services" class="menu__link hvr-link">Услуги</a></li>
-                        <li class="menu__item"><a href="#examples" class="menu__link hvr-link">Портфолио</a></li>
-                        <li class="menu__item"><a href="#cost" class="menu__link hvr-link">Стоимость</a></li>
+                        <li class="menu__item header--menu"><a href="#services" class="menu__link hvr-link">Услуги</a></li>
+                        <li class="menu__item header--menu"><a href="#examples" class="menu__link hvr-link">Портфолио</a></li>
+                        <li class="menu__item header--menu"><a href="#cost" class="menu__link hvr-link">Стоимость</a></li>
                     </ul>
                 </nav>
                 <div class="header__right"> 
@@ -70,19 +70,19 @@
                     <div class="first__skills skills">
                         <div class="skills__box">
                             <img src="img/tools-first.png" alt="tools" class="skills__img">
-                            <p class="slills__descr">Вёрстка лендинг–страниц <br>и сайтов любой сложности</p>
+                            <p class="slills__descr">Вёрстка лендинг–страниц и сайтов любой сложности</p>
                         </div>
                         <div class="skills__box">
                             <img src="img/tools-second.png" alt="tools2" class="skills__img">
-                            <p class="slills__descr">Адаптивная вёрстка под все <br> браузеры и устройства</p>
+                            <p class="slills__descr">Адаптивная вёрстка под все браузеры и устройства</p>
                         </div>
                         <div class="skills__box">
                             <img src="img/tools-third.png" alt="tools3" class="skills__img">
-                            <p class="slills__descr">Frontend–разработка <br>и программирование</p>
+                            <p class="slills__descr">Frontend–разработка и программирование</p>
                         </div>
                         <div class="skills__box">
                             <img src="img/tools-4.png" alt="tools4" class="skills__img">
-                            <p class="slills__descr">Исправление и доработка <br> существующей вёрстки</p>
+                            <p class="slills__descr">Исправление и доработка существующей вёрстки</p>
                         </div>
                     </div>
                     <div class="first__cost">
@@ -95,8 +95,8 @@
             <div class="fixed-container">
                 <h2 class="title" id="examples">Примеры моих работ</h2>
                 <div class="second__examples works-slider">
-                        <div class="works-slider__arrow-right hvr"></div>
-                        <div class="works-slider__arrow-left hvr"></div>
+                        <div class="works-slider__arrow-right hvr-grow"></div>
+                        <div class="works-slider__arrow-left hvr-grow"></div>
                         <div class="works-container">
                             <div class="works-wrapper">
                                 <div class="works-slide"><img src="img/map_1.png" alt="site_1" class="works-slide__img">
@@ -175,16 +175,16 @@
     <div class="popup" id="esq">
         <form class="popup__form" action="">
             <button type="button" class="popup__close"></button>
-            <div class="popup__title">
+            <div class="title popup--title">
                 <h2>Получить консультацию</h2>
             </div>
             <div class="popup__content">
-              <label for="fname">Ваше имя</label>
-                <input type="text" class="popup__input" name="fname" id="fname" aria-describedby="helpId" placeholder="Имя">
-              <label for="email">Ваш Email</label>
-                <input type="email" class="popup__input" name="email" id="email" aria-describedby="helpId" placeholder="Email" required>
-              <label for="tel">Ваш телефон для связи</label>
-                <input type="tel" class="popup__input" name="tel" id="tel" placeholder="Номер телефона" required>
+              <label for="popup__fname">Ваше имя</label>
+                <input type="text" class="popup__input" name="fname" id="popup__fname" aria-describedby="helpId" placeholder="Имя">
+              <label for="popup__email">Ваш Email</label>
+                <input type="email" class="popup__input" name="email" id="popup__email" aria-describedby="helpId" placeholder="Email" required>
+              <label for="popup__tel">Ваш телефон для связи</label>
+                <input type="tel" class="popup__input" name="tel" id="popup__tel" placeholder="Номер телефона" required>
               <button type="submit" class="popup__submit">Свяжитесь со мной</button>
             </div>
         </form>

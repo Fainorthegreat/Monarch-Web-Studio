@@ -47,6 +47,10 @@ $(document).ready(function(){
     $('.popup').fadeOut(300);
   })
 
+  $(".popup").on('click', function (e) {
+    if (e.target == this) $(".popup").fadeOut('300');
+})
+
 
 
     $('.animation__selector, .animation__teg,  .animation__slesh, .animation__div2, .animation__div').removeClass('anim--1 anim--2');
