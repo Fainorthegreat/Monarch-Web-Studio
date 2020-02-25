@@ -74,6 +74,9 @@ $(document).ready(function(){
         1024: {
         slidesPerView: 2,
         },
+        576: {
+          slidesPerView: 2,
+        },
         320: {
         slidesPerView: 1,
         }
@@ -107,7 +110,10 @@ $(document).ready(function(){
     }
   });
   
+  
    });
+
+   
 
 });
 
