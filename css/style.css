@@ -1642,10 +1642,16 @@ button:hover {
 	
 	.about__photo {
 		margin-top: 73px;
+		left: 0;
 	}
 
 	.author__info {
-		width: 33%;
+		margin-top: 22%;
+		font-size: 50px;
+	}
+
+	.author__descr {
+		font-size: 15px;
 	}
 
 	.header--content {
@@ -1733,8 +1739,8 @@ button:hover {
 	  }
 
 	  .animation__slesh {
-		top: 82%;
-		left: 40%;
+		top: 110%;
+		left: 20%;
 	  }
 
 	  .animation__selector  {
@@ -1768,6 +1774,29 @@ button:hover {
 	  .skills__box:nth-child(1), .skills__box:nth-child(3) {
 		  padding: 0;
 	  }
+
+	  .works-container {
+		height: 370px;
+	  }
+
+	  .works-slider__arrow-left,
+	  .works-slider__arrow-right {
+		  display: none;
+	  }
+
+	  .works-pagination {
+		top: 345px;
+		display: block;
+	}
+
+	.works-pagination-bullet {
+		width: 12px;
+		height: 12px;
+	}
+
+	.works-container-horizontal>.works-pagination-bullets .works-pagination-bullet {
+		margin: 0 9px;
+	}
 
 	  .second,
 	  .third {
