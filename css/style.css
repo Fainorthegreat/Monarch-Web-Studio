@@ -631,7 +631,7 @@ button:hover {
 }
 
 .animation__div {
-	top: 15%;
+	top: 32%;
     left: 41%;
 	transform: rotate(-15deg);
 	font-size: 29px;
@@ -639,7 +639,7 @@ button:hover {
 }
 
 .animation__div2 {
-	top: 50%;
+	top: 104%;
     left: 50%;
 	transform: rotate(15deg);
 	font-size: 35px;
@@ -655,8 +655,7 @@ button:hover {
 }
 
 .animation__slesh2 {
-	display: none;
-	transform: rotate(180deg);
+	transform: rotate(156deg);
 	font-size: 38px;
 	transition: 1s;
 	z-index: 2;
@@ -666,12 +665,12 @@ button:hover {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 700;
-	top: 235px;
-	left: 259px;
+    top: 129%;
+    left: 20%;
 }
 
 .animation__teg {
-    top: 34%;
+    top: 70%;
     left: 13%;
 	transform: rotate(25deg);
 	font-size: 55px;
@@ -679,7 +678,7 @@ button:hover {
 }
 
 .animation__selector {
-    top: 13%;
+    top: 25%;
     left: 7%;
 	transform: rotate(25deg);
 	font-size: 43px;
@@ -702,10 +701,6 @@ button:hover {
 .anim--1 {
 	left: 0;
 	top: 0;
-}
-
-.anim--2 {
-	left: 1400px;
 }
 
 .elements__tag-l {
@@ -847,11 +842,13 @@ button:hover {
 		font-size: 30px;
 		margin-bottom: 0;
 		order: 1;
+		margin-top: -8px;
+		margin-bottom: 15px;
 	}
 
 	.author__descr {
 		font-size: 16px;
-		margin-bottom: 17px;
+		margin-bottom: 25px;
 		order: 2;
 	}
 
@@ -1030,7 +1027,16 @@ button:hover {
 
 	.skills__box {
 		max-width: 220px;
-		margin-bottom: 50px;
+		margin-bottom: 52px;
+	}
+
+	.skills__descr {
+		width: 100%;
+	}
+
+	.skills__box:nth-child(1),
+	.skills__box:nth-child(3) {
+		padding: 0;
 	}
 
 	.author__button {
@@ -1045,6 +1051,10 @@ button:hover {
 		height: 55px;
 		font-size: 16px;	
 		margin-bottom: 50px;
+	}
+
+	.first__cost {
+		margin-top: 2px;
 	}
 
 	.works-slide {
@@ -1071,7 +1081,7 @@ button:hover {
 	}
 
 	.works-container {
-		height: 340px;
+		height: 350px;
 	}
 
 	.works-descr {
@@ -1140,7 +1150,7 @@ button:hover {
 
 	.footer__contacts {
 		margin: 0;
-		margin-top: 33px;
+		margin-top: 37px;
 	}
 
 	.footer__contacts a {
@@ -1165,6 +1175,10 @@ button:hover {
 		font-size: 16px;
 		background-color: #a44200;
 		color: #fff;
+	}
+
+	.footer__row {
+		margin-bottom: 4px;
 	}
 
 	.footer__author {
@@ -1738,6 +1752,11 @@ button:hover {
 		left: 81%;
 	  }
 
+	  .animation__div2 {
+		top: 44%;
+		left: 40%;
+	  }
+
 	  .animation__slesh {
 		top: 110%;
 		left: 20%;
@@ -1750,6 +1769,10 @@ button:hover {
 	  .animation__teg {
 		top: 24%;
 		left: 13%;
+	  }
+
+	  .animation__slesh2 {
+		display: none;
 	  }
 
 	  .btn--main {
@@ -1785,7 +1808,7 @@ button:hover {
 	  }
 
 	  .works-pagination {
-		top: 345px;
+		top: 95%;
 		display: block;
 	}
 
@@ -1836,6 +1859,24 @@ button:hover {
 		  display: none;
 	  }
 
+}
+
+@media (min-width: 864px) and (max-width: 1023px) {
+	.about__photo {
+		left: 100px;
+	}
+
+	.author__info {
+		margin-top: 19%;
+	}
+
+	.about {
+		background-size: 48%;
+	}
+
+	.works-container {
+		height: 420px;
+	}
 }
 
 @media (min-width: 1024px) and (max-width: 1919px) {
@@ -1961,9 +2002,10 @@ button:hover {
 	}
 	
 	.animation__slesh2 {
-		display: inline-block;
+		display: none;
 		transform: rotate(190deg); 
 	}
+	
 	
 	.animation__teg {
 		top: 630px;
