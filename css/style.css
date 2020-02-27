@@ -647,6 +647,7 @@ button:hover {
 }
 
 .animation__slesh {
+	display: none;
 	top: 62%;
     left: 20%;
 	transform: rotate(-22deg);
@@ -1258,6 +1259,8 @@ button:hover {
 	.header__menu {
 		display: none;
 		top: 17%;
+		text-align: center;
+    	width: 94%;
 		position: absolute;
 	}
 
@@ -1981,6 +1984,10 @@ button:hover {
 	  .callback__number {
 		  margin-right: 28px;
 	  }
+	  
+	  .callback {	
+		justify-content: flex-end;
+	  }
 
 	.header {
 	 background-position: right -267px bottom -81px;
@@ -2021,6 +2028,11 @@ button:hover {
 		top: 547px;
 		left: 871px;
 		z-index: 2;
+	}
+
+	.animation__slesh {
+		display: block;
+		left: 35%;
 	}
 
 	.skills__descr{
