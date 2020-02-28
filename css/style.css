@@ -2016,7 +2016,7 @@ button:hover {
 	}
 	
 	.animation__slesh2 {
-		display: none;
+		top: 240px;
 		transform: rotate(190deg); 
 	}
 	
@@ -2056,6 +2056,11 @@ button:hover {
 	
 	.footer--link {
 		color: #8993AD;
+	}
+
+	.footer__social {
+		margin-right: 0;
+		margin-top: 0;
 	}
 	
 	.about {
