@@ -16,7 +16,7 @@ echo $fname;
 echo "<br>";
 echo $email;
 
-mail("fainorthegreat3@gmail.com", "Заявка с сайта", "ФИО:".$fname.". E-mail: ".$email ,"From: send@a0391989.xsph.ru\r\n");
+mail("fainorthegreat3@gmail.com", "Заявка с сайта", "ФИО:".$fname.". E-mail: ".$email ," Номер телефона : ".$tel ,"From: send@a0391989.xsph.ru\r\n");
 
 if (mail("example@mail.ru", "Заказ с сайта", "ФИО:".$fname.". E-mail: ".$email , " Номер телефона : ".$tel , "From: example2@mail.ru \r\n"))
  {
