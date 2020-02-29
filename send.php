@@ -18,9 +18,9 @@ echo $email;
 
 mail("fainorthegreat3@gmail.com", "Заявка с сайта", "ФИО:".$fname.". E-mail: ".$email ,"From: send@a0391989.xsph.ru\r\n");
 
-if (mail("example@mail.ru", "Заказ с сайта", "ФИО:".$fname.". E-mail: ".$email ,"From: example2@mail.ru \r\n"))
+if (mail("example@mail.ru", "Заказ с сайта", "ФИО:".$fname.". E-mail: ".$email , " Номер телефона : ".$tel , "From: example2@mail.ru \r\n"))
  {
-    echo "сообщение успешно отправлено";
+    echo " сообщение успешно отправлено";
 } else {
     echo "при отправке сообщения возникли ошибки";
 }
