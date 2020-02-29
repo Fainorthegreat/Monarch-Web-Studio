@@ -77,6 +77,7 @@ body {
 }
 
 .third {
+	position: relative;
 	height: 364px;
 	background-color: #a44200;
 	background-image: linear-gradient(13deg, #a44200 15%, #f2c17d 84%);
@@ -244,6 +245,7 @@ button:hover {
 /* !POPUP END */
 
 .about {
+	position: relative;
 	background-image: url(../img/Ellipse_header.svg);
 	background-position: right bottom;
 	background-repeat: no-repeat;
@@ -641,7 +643,7 @@ button:hover {
 }
 
 .animation__div {
-	top: 167px;
+	top: 90px;
     left: 41%;
 	transform: rotate(-15deg);
 	font-size: 29px;
@@ -649,7 +651,7 @@ button:hover {
 }
 
 .animation__div2 {
-	top: 540px;
+	top: 470px;
     left: 50%;
 	transform: rotate(15deg);
 	font-size: 35px;
@@ -676,12 +678,12 @@ button:hover {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 700;
-    top: 670px;
+    top: 600px;
     left: 20%;
 }
 
 .animation__teg {
-    top: 370px;
+    top: 290px;
     left: 13%;
 	transform: rotate(25deg);
 	font-size: 55px;
@@ -689,7 +691,7 @@ button:hover {
 }
 
 .animation__selector {
-	top: 130px;
+	top: 70px;
     left: 7%;
 	transform: rotate(25deg);
 	font-size: 43px;
@@ -715,7 +717,7 @@ button:hover {
 }
 
 .elements__tag-l {
-    top: 216%;
+    top: 16%;
     left: 7%;
 	font-size: 48px;
 	transform: rotate(25deg);
@@ -723,13 +725,13 @@ button:hover {
 
 .elements__tag-r {
 	left: 92%;
-    top: 234%;
+    top: 71%;
 	transform: rotate(-20deg);
 	font-size: 48px;
 }
 
 .elements__tag {
-	top: 234%;
+	top: 68%;
     left: 13%;
 	font-size: 55px;
 	transform: rotate(25deg);
@@ -737,13 +739,13 @@ button:hover {
 
 .elements__div {
     left: 74%;
-    top: 239%;
+    top: 84%;
 	transform: rotate(23deg);
 	font-size: 35px;
 }
 
 .elements__slash {
-    top: 218%;
+    top: 23%;
     left: 86%;
 	font-size: 38px;
 	transform: rotate(-20deg);
@@ -774,11 +776,7 @@ button:hover {
 
 
 
-@media (min-width: 1025px) and (max-width:1650px) {
-	.about__photo {
-		left:50px
-	}
-}
+
 
 @media (max-width: 575px) {
 
@@ -956,18 +954,19 @@ button:hover {
 	.animation__selector {
 		font-size: 22px;
 		left: 50px;
-		top: 100px;
+		top: 45px;
 	}
 
 	.animation__teg {
 		left: 37px;
-		top: 205px;
+		top: 148px;
 		font-size: 24px;
 	}  
 	
 	.animation__slesh {
-		left: 60%;
-		top: 75px;
+		display: block;
+		left: 56%;
+		top: 15px;
 		font-size: 22px;
 		transform: rotate(-30deg);
 	}
@@ -979,7 +978,7 @@ button:hover {
 	.animation__div2 {
 		left: 76%;
 		font-size: 15px;
-		top: 145px;
+		top: 84px;
 		transform: rotate(30deg);
 	}
 
@@ -1168,7 +1167,7 @@ button:hover {
 	}
 
 	.footer__callback {
-		margin-top: 13px;
+		margin-top: 23px;
 		margin-bottom: 50px;
 		width: 280px;
 		height: 55px;
@@ -1369,7 +1368,7 @@ button:hover {
 	}
 	
 	.animation__selector {
-		top: 25%;
+		top: 15%;
 		left: 10%;
 	}
 	
@@ -1385,11 +1384,11 @@ button:hover {
 	
 	.animation__teg {
 		top: 29%;
-		left: 362px;
+		left: 312px;
 	}
 	
 	.animation__div {
-		top: 40%;
+		top: 20%;
 		left: 85%;
 	}
 	
@@ -1755,7 +1754,7 @@ button:hover {
 	  }
 
 	  .animation__div2 {
-		top: 44%;
+		top: 18%;
 		left: 40%;
 	  }
 
@@ -1882,6 +1881,7 @@ button:hover {
 
 	.about {
 		background-size: 48%;
+		background-position: right 0px bottom;
 	}
 
 	.works-container {
@@ -2006,29 +2006,29 @@ button:hover {
 	}
 	
 	.animation__selector {
-		top: 156px;
+		top: 78px;
 		left: 81px;
 	}
 	
 	.animation__slesh {
-		top: 581px;
+		top: 511px;
 		left: 359px;
 	}
 	
 	.animation__slesh2 {
-		top: 240px;
+		top: 165px;
 		transform: rotate(190deg); 
 	}
 	
 	
 	.animation__teg {
-		top: 630px;
+		top: 555px;
 		left: 59px;
 	}
 	
 	.animation__div {
-		top: 19%;
-		left: 71%;
+		top: 11%;
+		left: 86%;
 	}
 	
 	.animation__div2 {
@@ -2064,7 +2064,8 @@ button:hover {
 	}
 	
 	.about {
-		background-position: right -270px bottom;
+		background-position: right -152px bottom;
+		background-size: 700px;
 	}
 	
 	.author__info {
@@ -2164,21 +2165,21 @@ button:hover {
 	}
 	
 	.elements__tag-r {
-		left: 20%;
-		top: 2775px;
+		left: 15%;
+		top: 25px;
 		transform: rotate(200deg);
 		font-size: 30px;
 	}
 	
 	.elements__div {
 		left: 50%;
-		top: 2750px;
+		top: 300px;
 		font-size: 27px;
 	}
 	
 	.elements__slash {
-		top: 2500px;
-		left: 80%;
+		top: 290px;
+		left: 85%;
 	}
 	
 	.footer--info {
@@ -2214,6 +2215,14 @@ button:hover {
 	}
 	
 	}
+
+/* @media (min-width: 1025px) and (max-width:1650px) {
+		.about__photo {
+			margin-left: auto;
+			margin-right: a;
+		}
+	} */
+
 
 @media (min-width: 1025px) and (max-width: 1919px) {
 		.first__skills {
