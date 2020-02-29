@@ -51,8 +51,6 @@ $(document).ready(function(){
     if (e.target == this) $(".popup").fadeOut('300');
 })
 
-
-
     $('.animation__selector, .animation__teg,  .animation__slesh, .animation__div2, .animation__div').removeClass('anim--1 anim--2');
 
     var mySwiper = new Swiper ('.works-container', {
