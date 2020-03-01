@@ -95,6 +95,11 @@ button:hover {
 	cursor: pointer;
 }
 
+button, input {
+	outline: none;
+}
+
+
 
 .header {
 	background-color: #fbfbfb;
@@ -165,6 +170,8 @@ button:hover {
 	transform: scaleX(1);
 }
 
+
+
 /* !POPUP */
  
 .popup__fname, .popup__email, .popup__tel {
@@ -187,6 +194,11 @@ button:hover {
 	z-index: 500;
 }
 
+.popup__group {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
 .popup__input {
 	padding: 20px;
 	border: 0;
@@ -204,10 +216,12 @@ button:hover {
 
 .popup__form {
 	background-color: whitesmoke;
-	/* padding-top: 55px; */
 	padding-bottom: 55px;
 	border-radius: 55px;
 	align-self: center;
+	max-width: 840px;
+	max-height: 840px;
+	box-shadow: 0px 0px 15px #7f7f7f, 0px 0px 15px #7f7f7f;
 }
 
 .popup__submit {
@@ -216,7 +230,6 @@ button:hover {
 	padding: 5px 10px;
 	width: 270px;
 	height: 60px;
-	margin-top: 30px;
 	background-color: #a44200;
 	color: white;
 	align-self: center;
@@ -243,6 +256,40 @@ button:hover {
 }
 
 /* !POPUP END */
+
+/* ! */
+.popup__label {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	margin-left: 3rem;
+	margin-top: 0.7rem;
+	display: block;
+	transition: all 0.3s;
+	transform: translateY(0rem);
+	text-align: left;
+  }
+  
+  .popup__input {
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	font-size: 1.2rem;
+	  margin: 0 auto;
+	padding: 1.5rem 2rem;
+	border-radius: 0.2rem;
+	background-color: rgb(255, 255, 255);
+	border: none;
+	width: 90%;
+	display: block;
+	border-bottom: 0.3rem solid transparent;
+	transition: all 0.3s;
+  }
+  
+  .popup__input:placeholder-shown + .popup__label {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: translateY(-4rem);
+	transform: translateY(-4rem);
+  }
 
 .about {
 	position: relative;
@@ -2101,6 +2148,10 @@ button:hover {
 	.title {
 		margin-top: 86px;
 		padding: 0;
+	}
+
+	.popup--title {
+		margin-top: 0;
 	}
 	
 	.skills__descr {

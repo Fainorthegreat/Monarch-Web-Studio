@@ -181,12 +181,18 @@
                 <h2>Получить консультацию</h2>
             </div>
             <div class="popup__content">
-              <label for="popup__fname">Ваше имя</label>
+              <div class="popup__group">
                 <input type="text" class="popup__input" name="fname" id="popup__fname" aria-describedby="helpId" placeholder="Имя" required>
-              <label for="popup__email">Ваш Email</label>
-                <input type="email" class="popup__input" name="email" id="popup__email" aria-describedby="helpId" placeholder="example@mail.ru" required>
-              <label for="popup__tel">Ваш телефон для связи</label>
+                    <label for="popup__fname" class="popup__label">Имя</label>
+            </div>
+              <div class="popup__group">
+                <input type="email" class="popup__input" name="email" id="popup__email" aria-describedby="helpId" placeholder="Email" required>
+                    <label for="popup__email" class="popup__label">Email</label>
+            </div>
+            <div class="popup__group">
                 <input type="tel" class="popup__input" name="tel" id="popup__tel" placeholder="+7 (999) 999-99-99" required>
+                    <label for="popup__tel" class="popup__label">Ваш телефон для связи</label>
+            </div>
               <input type="submit" class="popup__submit" value="Свяжитесь со мной">
             </div>
         </form>
