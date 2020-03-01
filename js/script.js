@@ -1,46 +1,12 @@
 $(document).ready(function(){
 
-  $('#callback').click(function(){
+
+  $('.phone__info__button, .cost__desctop, .footer__callback, .cost__tablet, .first__button, .info__button, #moreinfo, #callback').click(function(){
     $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
   })
 
-  $('#moreinfo').click(function(){
-    $('.popup').fadeIn(300);
-    $('.popup').css('display', 'flex');
-  })
-
-  $('.info__button').click(function(){
-    $('.popup').fadeIn(300);
-    $('.popup').css('display', 'flex');
-  })
-
-  $('.first__button').click(function(){
-    $('.popup').fadeIn(300);
-    $('.popup').css('display', 'flex');
-  })
-
-  $('.cost__desctop').click(function(){
-    $('.popup').fadeIn(300);
-    $('.popup').css('display', 'flex');
-  })
-
-  $('.phone__info__button').click(function(){
-    $('.popup').fadeIn(300);
-    $('.popup').css('display', 'flex');
-  })
-
-  $('.cost__tablet').click(function(){
-    $('.popup').fadeIn(300);
-    $('.popup').css('display', 'flex');
-  })
-
-  $('.footer__callback').click(function(){
-    $('.popup').fadeIn(300);
-    $('.popup').css('display', 'flex');
-  })
-
-
+  $("#popup__tel").mask("+7 (999) 999-99-99");
 
   $('.popup__close').click(function() {
     event.preventDefault(); // !Позволяет отключить обновление страницы при закрытии модального окна
@@ -51,7 +17,7 @@ $(document).ready(function(){
     if (e.target == this) $(".popup").fadeOut('300');
 })
 
-    $('.animation__selector, .animation__teg,  .animation__slesh, .animation__div2, .animation__div').removeClass('anim--1 anim--2');
+    $('.anim').removeClass('anim--1 anim--2');
 
     var mySwiper = new Swiper ('.works-container', {
       loop: true,
@@ -72,7 +38,7 @@ $(document).ready(function(){
         1024: {
         slidesPerView: 2,
         },
-        576: {
+        590: {
           slidesPerView: 2,
         },
         320: {
@@ -82,19 +48,12 @@ $(document).ready(function(){
     });
     
 
-   $(".header__menu").on("click","a", function (event) {
+   $(".header__menu, .footer__menu").on("click","a", function (event) {
       event.preventDefault();
       var id  = $(this).attr('href'),
           top = $(id).offset().top;
       $('body,html').animate({scrollTop: top}, 800);
   });
-
-  $(".footer__menu").on("click","a", function (event) {
-    event.preventDefault();
-    var id  = $(this).attr('href'),
-        top = $(id).offset().top;
-    $('body,html').animate({scrollTop: top}, 800);
-});
 
 
   
@@ -102,17 +61,10 @@ $(document).ready(function(){
 		$('.header__menu').slideToggle(300, function(){
 			
 			if($(this).css('display') === 'none'){
-        $(this).removeAttr('style');   
-
-        
+        $(this).removeAttr('style');      
     }
   });
-  
-  
    });
-
-   
-
 });
 
 // !Позволяет закрыть модальное окно по по нажатию кнопки

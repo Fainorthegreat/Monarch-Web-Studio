@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/sprite.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../img/icon-monarch.png" type="image/png">
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
     <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <title>Дипломна работа</title>
 </head>
 <body>
@@ -43,12 +45,12 @@
         <section class="about">
             <div class="fixed-container about--container">
                 <div class="about__animation animation">
-                    <div class="animation__div anim--2">&lt;div&gt;</div>
-                    <div class="animation__teg anim--1">#</div>
-                    <div class="animation__div2 anim--2">&lt;div&gt;</div>
-                    <div class="animation__slesh anim--2">&lt;/&gt;</div>
-                    <div class="animation__slesh2 anim--2">&lt; /&gt;</div>
-                    <div class="animation__selector anim1">{ }</div>
+                    <div class="animation__div anim anim--2">&lt;div&gt;</div>
+                    <div class="animation__teg anim anim--1">#</div>
+                    <div class="animation__div2 anim anim--2">&lt;div&gt;</div>
+                    <div class="animation__slesh anim anim--2">&lt;/&gt;</div>
+                    <div class="animation__slesh2 anim anim--2">&lt; /&gt;</div>
+                    <div class="animation__selector anim anim1">{ }</div>
                 </div>
                 <div class="author__info author">
                     <h1 class="author__info">Виталий Петров</h1>
@@ -182,9 +184,9 @@
               <label for="popup__fname">Ваше имя</label>
                 <input type="text" class="popup__input" name="fname" id="popup__fname" aria-describedby="helpId" placeholder="Имя" required>
               <label for="popup__email">Ваш Email</label>
-                <input type="email" class="popup__input" name="email" id="popup__email" aria-describedby="helpId" placeholder="Email" required>
+                <input type="email" class="popup__input" name="email" id="popup__email" aria-describedby="helpId" placeholder="example@mail.ru" required>
               <label for="popup__tel">Ваш телефон для связи</label>
-                <input type="tel" class="popup__input" name="tel" id="popup__tel" placeholder="Номер телефона" required>
+                <input type="tel" class="popup__input" name="tel" id="popup__tel" placeholder="+7 (999) 999-99-99" required>
               <input type="submit" class="popup__submit" value="Свяжитесь со мной">
             </div>
         </form>

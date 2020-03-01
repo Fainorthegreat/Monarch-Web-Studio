@@ -698,11 +698,7 @@ button:hover {
 	transition: 1s;
 }
 
-.animation__selector,
-.animation__teg,
-.animation__slesh,
-.animation__div2,
-.animation__div {
+.anim {
 	position: absolute;
 	transition: all 2sec ease-out;
 	background-image: linear-gradient(180deg, #a44200 15%, #f2c17d 74%);
@@ -1260,6 +1256,7 @@ button:hover {
 		text-align: center;
     	width: 94%;
 		position: absolute;
+		z-index: 5;
 	}
 
 	.menu__link {
@@ -1310,8 +1307,8 @@ button:hover {
 
 	/* !Menu ICON ANIMATION */
 	.header__burger {
-		width: 45px;
-		height: 40px;
+		width: 35px;
+		height: 30px;
 		position: relative;
 		-webkit-transform: rotate(0deg);
 		-moz-transform: rotate(0deg);
@@ -1352,11 +1349,11 @@ button:hover {
 	  }
 	  
 	  .burger__strip:nth-child(2),.burger__strip:nth-child(3) {
-		top: 18px;
+		top: 13px;
 	  }
 	  
 	  .burger__strip:nth-child(4) {
-		top: 36px;
+		top: 26px;
 	  }
 	
 	.header {
@@ -1507,7 +1504,7 @@ button:hover {
 	}
 	
 	.works-container {
-		height: 450px;
+		height: 500px;
 	}
 	
 	.works-container-horizontal>.works-pagination-bullets .works-pagination-bullet {
@@ -1686,10 +1683,11 @@ button:hover {
 	.header__menu {
 		display: none;
 		position: absolute;
-		top: 19%;
+		top: 12%;
 		left: 0%;
 		width: 100%;
-    	text-align: center;
+		text-align: center;
+		z-index: 5;
 	}
 
 	.header__right {
@@ -1889,7 +1887,7 @@ button:hover {
 	}
 }
 
-@media (min-width: 1024px) and (max-width: 1919px) {
+@media (min-width: 1024px) {
 
 	.header--content {
 		padding-top: 30px;
@@ -2224,7 +2222,7 @@ button:hover {
 	} */
 
 
-@media (min-width: 1025px) and (max-width: 1919px) {
+@media (min-width: 1025px) {
 		.first__skills {
 			max-width: none;
 			margin-right: 0;
