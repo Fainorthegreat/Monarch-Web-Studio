@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-  $('.phone__info__button, .cost__desctop, .footer__callback, .cost__tablet, .first__button, .info__button, #moreinfo, #callback').click(function(){
+  $('.fade').click(function(){
     $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
   })
