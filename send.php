@@ -27,6 +27,7 @@ mail("fainorthegreat3@gmail.com", "Заявка с сайта", "ФИО:".$fname
 
 $redirect = isset($_SERVER['HTTP_REFERER'])? $_SERVER['HTTP_REFERER']:'redirect-form.html';
 header("Location: $redirect");
+echo "<h2>Заявка отправлена</h2>"
 exit();
 
 ?>

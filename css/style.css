@@ -1236,7 +1236,7 @@ button, input {
 
 
 
-@media (max-width: 1023px) {
+@media (max-width: 992px) {
 		.about {
 			background-size: 48%;
 			background-position: right bottom;
@@ -1920,7 +1920,7 @@ button, input {
 		}
 	
 		.about {
-			background-size: 100%;
+			background-size: 320px;
 			padding-left: 20px;
 			padding-right: 20px;
 		}
@@ -2076,10 +2076,14 @@ button, input {
 		
 		.animation__slesh {
 			display: block;
-			left: 56%;
+			left: 54%;
 			top: 15px;
 			font-size: 22px;
 			transform: rotate(-30deg);
+		}
+
+		.animation__selector, .animation__div2 {
+			display: block;
 		}
 	
 		.animation__slesh2 {
