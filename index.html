@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Дипломная работа Виталия Петрова">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -13,8 +14,8 @@
     <link rel="shortcut icon" href="../img/icon-monarch.png" type="image/png">
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/swiper.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/swiper.min.js"></script>
     <title>Дипломна работа</title>
 </head>
 <body>
@@ -28,7 +29,8 @@
                     </ul>
                 </nav>
                 <div class="header__right"> 
-                    <button class="header__burger burger">
+                    <button class="header__burger burger" aria-label="burger">
+                        бургер
                         <span class="burger__strip"></span>
                         <span class="burger__strip"></span>
                         <span class="burger__strip"></span>
@@ -36,7 +38,7 @@
                     </button>
                     <div class="callback">
                         <a href="tel:+79774725703" class="callback__number">+7 (977) 472-57-03</a>
-                        <button id="callback" class="callback__button hvrf fade">Заказать звонок</button>
+                        <button id="callback" class="callback__button hvr fade">Заказать звонок</button>
                     </div>
             </div>
         </div>
@@ -45,11 +47,11 @@
         <section class="about">
             <div class="fixed-container about--container">
                 <div class="about__animation animation">
-                    <div class="animation__div anim anim--2">&lt;div&gt;</div>
+                    <div class="animation__div anim anim--1">&lt;div&gt;</div>
                     <div class="animation__teg anim anim--1">#</div>
-                    <div class="animation__div2 anim anim--2">&lt;div&gt;</div>
-                    <div class="animation__slesh anim anim--2">&lt;/&gt;</div>
-                    <div class="animation__slesh2 anim anim--2">&lt; /&gt;</div>
+                    <div class="animation__div2 anim anim--1">&lt;div&gt;</div>
+                    <div class="animation__slesh anim anim--1">&lt;/&gt;</div>
+                    <div class="animation__slesh2 anim anim--1">&lt; /&gt;</div>
                     <div class="animation__selector anim anim1">{ }</div>
                 </div>
                 <div class="author__info author">
@@ -104,10 +106,10 @@
                                 <div class="works-slide"><img src="img/map_1.png" alt="site_1" class="works-slide__img">
                                     <div class="works-descr">Сайт психолога Веры Антоновой</div>
                                 </div>
-                                <div class="works-slide"><img src="img/map_3.png" alt="site_2" class="works-slide__img">
+                                <div class="works-slide"><img src="img/map_2.png" alt="site_2" class="works-slide__img">
                                     <div class="works-descr">Сайт магазина «Рыболов»</div>
                                 </div>
-                                <div class="works-slide"><img src="img/map_2.png" alt="site_3" class="works-slide__img">
+                                <div class="works-slide"><img src="img/map_3.png" alt="site_3" class="works-slide__img">
                                     <div class="works-descr">Сайт магазина детской одежды</div>
                                 </div>
                             </div>  
@@ -160,10 +162,10 @@
             <div class="footer__social">
                 <button class="footer__callback hvr fade">Заказать звонок</button>
                     <ul class="footer__row social">
-                        <li class="social__item"><a href="https://vk.com/69guru" class="social__link social--vk"></a></li>
-                        <li class="social__item"><a href="#" class="social__link social--facebook"></a></li>
-                        <li class="social__item"><a href="#" class="social__link social--twitter"></a></li>
-                        <li class="social__item"><a href="#" class="social__link social--instagram"></a></li>
+                        <li class="social__item"><a href="https://vk.com/share.php?url=http://a0391989.xsph.ru/" rel="noreferrer" class="social__link social--vk" target="_blank">Поделиться страницей</a></li>
+                        <li class="social__item"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fa0391989.xsph.ru%2F&amp;src=sdkpreparse" class="social__link social--facebook" target="_blank" rel="noreferrer">Поделиться страницей</a></li>
+                        <li class="social__item"><a href="https://twitter.com/intent/tweet" class="social__link social--twitter" target="_blank" rel="noreferrer">Поделиться страницей</a></li>
+                        <li class="social__item"><a href="http://a0391989.xsph.ru/share.html" class="social__link social--instagram" target="_blank" rel="noreferrer">Поделиться страницей</a></li>
                     </ul>
             </div>
         </div>
@@ -175,8 +177,8 @@
     </footer>
 <div>
     <div class="popup" id="esq">
-        <form class="popup__form" action="send.php" method="POST">
-            <button type="button" class="popup__close"></button>
+        <form class="popup__form" method="POST" id="form">
+            <button type="button" class="popup__close hvr-grow"></button>
             <div class="title popup--title">
                 <h2>Получить консультацию</h2>
             </div>
@@ -193,7 +195,7 @@
                 <input type="tel" class="popup__input" name="tel" id="popup__tel" placeholder="+7 (999) 999-99-99" required>
                     <label for="popup__tel" class="popup__label">Ваш телефон для связи</label>
             </div>
-              <input type="submit" class="popup__submit" value="Свяжитесь со мной">
+              <input type="submit" class="popup__submit hvr" value="Свяжитесь со мной">
             </div>
         </form>
     </div>

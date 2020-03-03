@@ -1,5 +1,25 @@
+
+
+$(window).on('beforeunload', function() {
+  $('body').hide();
+  $(window).scrollTop(0);
+}); 
+
+
 $(document).ready(function(){
 
+$('#form').submit(function () { 
+  $.ajax({
+    type: "POST",
+    url: "send.php",
+    data: $(this).serialize()
+  }).done(function(){
+    alert('Спасибо за заявку! Я свяжусь с Вами в ближайшее время.');
+  });
+  $('.popup').fadeOut(300);
+  return false;
+  
+});
 
   $('.fade').click(function(){
     $('.popup').fadeIn(300);
@@ -13,6 +33,7 @@ $(document).ready(function(){
     $('.popup').fadeOut(300);
   })
 
+  
   $(".popup").on('click', function (e) {
     if (e.target == this) $(".popup").fadeOut('300');
 })
