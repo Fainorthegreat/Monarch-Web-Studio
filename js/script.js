@@ -24,6 +24,7 @@ $('#form').submit(function () {
   $('.fade').click(function(){
     $('.popup').fadeIn(300);
     $('.popup').css('display', 'flex');
+    $('body').css('overflow', 'hidden');
   })
 
   $("#popup__tel").mask("+7 (999) 999-99-99");
@@ -31,11 +32,13 @@ $('#form').submit(function () {
   $('.popup__close').click(function() {
     event.preventDefault(); // !Позволяет отключить обновление страницы при закрытии модального окна
     $('.popup').fadeOut(300);
+    $('body').css('overflow', 'auto');
   })
 
   
   $(".popup").on('click', function (e) {
     if (e.target == this) $(".popup").fadeOut('300');
+    $('body').css('overflow', 'auto');
 })
 
     $('.anim').removeClass('anim--1 anim--2');
@@ -60,7 +63,7 @@ $('#form').submit(function () {
         slidesPerView: 2,
         },
         590: {
-          slidesPerView: 2,
+        slidesPerView: 2,
         },
         320: {
         slidesPerView: 1,
@@ -84,6 +87,9 @@ $('#form').submit(function () {
 			if($(this).css('display') === 'none'){
         $(this).removeAttr('style');      
     }
+
+    $('.header--menu').css('position', 'fixed');
+      
   });
    });
 });
