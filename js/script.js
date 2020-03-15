@@ -43,6 +43,8 @@ $('#form').submit(function () {
 
     $('.anim').removeClass('anim--1 anim--2');
 
+    
+
     var mySwiper = new Swiper ('.works-container', {
       loop: true,
       slidesPerView: 2,
@@ -88,7 +90,7 @@ $('#form').submit(function () {
         $(this).removeAttr('style');      
     }
 
-    $('.header--menu').css('position', 'fixed');
+    // $('.header--menu').css('position', 'fixed');
       
   });
    });
