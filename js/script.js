@@ -14,11 +14,12 @@ $('#form').submit(function () {
     url: "send.php",
     data: $(this).serialize()
   }).done(function(){
-    alert('Спасибо за заявку! Я свяжусь с Вами в ближайшее время.');
+    $('.popup-thx').fadeIn(300);
+    $(this).find('input').val('');
+    $('#form').trigger('reset');
   });
   $('.popup').fadeOut(300);
   return false;
-  
 });
 
   $('.fade').click(function(){
@@ -36,8 +37,8 @@ $('#form').submit(function () {
   })
 
   
-  $(".popup").on('click', function (e) {
-    if (e.target == this) $(".popup").fadeOut('300');
+  $(".close-out").on('click', function (e) { // В данном случае мы обращаемся к универсальному классу, его мы дали тем дивам на клики которых мы прячем формы
+    if (e.target == this) $(".close-out").fadeOut('300');
     $('body').css('overflow', 'auto');
 })
 
