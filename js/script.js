@@ -1,13 +1,23 @@
-
-
 $(window).on('beforeunload', function() {
   $('body').hide();
   $(window).scrollTop(0);
 }); 
 
+(function(){ 
+
+  document.onreadystatechange = () => {
+
+    if (document.readyState === 'complete') {
+      let el = document.querySelector('#butterfly');
+      let myAnimation = new LazyLinePainter(el, {"ease":"easeLinear","strokeWidth":1.8,"strokeOpacity":1,"strokeColor":"#222F3D","strokeCap":"square"}); 
+      myAnimation.paint(); 
+      $('.preloader').delay(2800).fadeOut();
+    }
+  }
+
+})();
 
 $(document).ready(function(){
-
 $('#form').submit(function () { 
   $.ajax({
     type: "POST",

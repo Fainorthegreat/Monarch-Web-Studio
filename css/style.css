@@ -99,6 +99,39 @@ button {
 	outline: none;
 }
 
+#butterfly {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	overflow: visible;
+  }
+
+.preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	background: #c65a12;
+	z-index: 1001;
+  }
+  
+  @keyframes preloader-rotate {
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  .loaded_hiding .preloader {
+	transition: 0.3s opacity;
+	opacity: 0;
+  }
+  
+  .loaded .preloader {
+	display: none;
+  }
+
 .header {
 	background-color: #fbfbfb;
 }
@@ -767,7 +800,7 @@ button {
     left: 41%;
 	transform: rotate(-15deg);
 	font-size: 29px;
-	transition: 3s;
+	transition: 5s;
 }
 
 .animation__div2 {
@@ -775,7 +808,7 @@ button {
     left: 50%;
 	transform: rotate(15deg);
 	font-size: 35px;
-	transition: 2s;
+	transition: 5s;
 	z-index: 5;
 }
 
@@ -785,13 +818,13 @@ button {
     left: 20%;
 	transform: rotate(-22deg);
 	font-size: 38px;
-	transition: 1s;
+	transition: 5s;
 }
 
 .animation__slesh2 {
 	transform: rotate(156deg);
 	font-size: 38px;
-	transition: 1s;
+	transition: 5s;
 	z-index: 2;
 	position: absolute;
 	transition: all 2sec ease-out;
@@ -809,7 +842,7 @@ button {
     left: 13%;
 	transform: rotate(25deg);
 	font-size: 55px;
-	transition: 3s;
+	transition: 5s;
 }
 
 .animation__selector {
@@ -817,7 +850,7 @@ button {
     left: 7%;
 	transform: rotate(25deg);
 	font-size: 43px;
-	transition: 1s;
+	transition: 5s;
 }
 
 .anim {
