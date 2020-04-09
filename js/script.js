@@ -11,7 +11,7 @@ $(window).on('beforeunload', function() {
       let el = document.querySelector('#butterfly');
       let myAnimation = new LazyLinePainter(el, {"ease":"easeLinear","strokeWidth":1.8,"strokeOpacity":1,"strokeColor":"#222F3D","strokeCap":"square"}); 
       myAnimation.paint(); 
-      $('.preloader').delay(2800).fadeOut();
+      $('.preloader').delay(1200).fadeOut();
     }
   }
 
